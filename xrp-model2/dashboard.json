@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-29T14:25:01.481117+00:00",
+  "captured_at": "2026-09-29T15:24:56.668863+00:00",
   "core_families_fresh": 10,
   "core_families_present": 10,
   "coverage": {
@@ -154,34 +154,39 @@
       "price": 1.5496,
       "sources": 4,
       "time": "2026-09-29T14:00:00+00:00"
+    },
+    {
+      "price": 1.516575,
+      "sources": 4,
+      "time": "2026-09-29T15:00:00+00:00"
     }
   ],
   "horizons": {
     "1d": {
-      "history_observations": 14,
+      "history_observations": 15,
       "status": "PENDING_HISTORY"
     },
     "30d": {
-      "history_observations": 14,
+      "history_observations": 15,
       "status": "PENDING_HISTORY"
     },
     "7d": {
-      "history_observations": 14,
+      "history_observations": 15,
       "status": "PENDING_HISTORY"
     }
   },
-  "input_cutoff": "2026-09-29T14:25:00.984444+00:00",
-  "price": 1.5496,
-  "price_observed_hour": "2026-09-29T14:00:00+00:00",
+  "input_cutoff": "2026-09-29T15:24:56.191089+00:00",
+  "price": 1.516575,
+  "price_observed_hour": "2026-09-29T15:00:00+00:00",
   "publication": "RESEARCH ONLY \u00b7 UNCALIBRATED",
   "publication_metadata": {
     "calibration_status": "UNCALIBRATED",
-    "run_id": 57,
+    "run_id": 58,
     "source": "frozen_research_capture",
     "status": "RESEARCH_ONLY"
   },
-  "research_run_id": 57,
+  "research_run_id": 58,
   "schema": "xrp-research-dashboard-v1",
-  "snapshot_sha256": "459db6637d4923f599c3f164b86f02db02da94dd0d473bd1f2db189e80d69918",
+  "snapshot_sha256": "4bd93f5d53ec54035a4af6c441539ebfb1805f226ad6f5f697d58e680f7dd8e7",
   "status": "RESEARCH_SIGNAL_ONLY"
 }
