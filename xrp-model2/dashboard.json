@@ -1,0 +1,187 @@
+{
+  "captured_at": "2026-09-29T14:25:01.481117+00:00",
+  "core_families_fresh": 10,
+  "core_families_present": 10,
+  "coverage": {
+    "anomaly": "INSUFFICIENT_HISTORY",
+    "behaviour": "FRESH",
+    "breadth": "FRESH",
+    "cross_asset": "FRESH",
+    "derivatives": "FRESH",
+    "dislocation": "INSUFFICIENT_HISTORY",
+    "etf_flow": "FRESH",
+    "macro": "FRESH",
+    "market_plumbing": "FRESH",
+    "market_regime": "FRESH",
+    "news_attention": "MISSING_OR_STALE",
+    "official_trades": "FRESH",
+    "reflexivity": "INSUFFICIENT_HISTORY",
+    "regulatory_institutional": "FRESH",
+    "relative_strength": "FRESH",
+    "sentiment": "FRESH",
+    "social_attention": "FRESH",
+    "spot_market": "FRESH",
+    "supply_flows": "FRESH",
+    "xrpl_economics": "FRESH"
+  },
+  "history": [
+    {
+      "price": 1.5234375,
+      "sources": 2,
+      "time": "2026-09-27T20:00:00+00:00"
+    },
+    {
+      "price": 1.51815,
+      "sources": 5,
+      "time": "2026-09-28T12:00:00+00:00"
+    },
+    {
+      "price": 1.527025,
+      "sources": 4,
+      "time": "2026-09-28T13:00:00+00:00"
+    },
+    {
+      "price": 1.5011,
+      "sources": 4,
+      "time": "2026-09-28T14:00:00+00:00"
+    },
+    {
+      "price": 1.495575,
+      "sources": 4,
+      "time": "2026-09-28T15:00:00+00:00"
+    },
+    {
+      "price": 1.498675,
+      "sources": 4,
+      "time": "2026-09-28T16:00:00+00:00"
+    },
+    {
+      "price": 1.506625,
+      "sources": 4,
+      "time": "2026-09-28T17:00:00+00:00"
+    },
+    {
+      "price": 1.4958,
+      "sources": 4,
+      "time": "2026-09-28T19:00:00+00:00"
+    },
+    {
+      "price": 1.492525,
+      "sources": 4,
+      "time": "2026-09-28T20:00:00+00:00"
+    },
+    {
+      "price": 1.491925,
+      "sources": 4,
+      "time": "2026-09-28T21:00:00+00:00"
+    },
+    {
+      "price": 1.4842,
+      "sources": 4,
+      "time": "2026-09-28T22:00:00+00:00"
+    },
+    {
+      "price": 1.495075,
+      "sources": 4,
+      "time": "2026-09-28T23:00:00+00:00"
+    },
+    {
+      "price": 1.47025,
+      "sources": 4,
+      "time": "2026-09-29T01:00:00+00:00"
+    },
+    {
+      "price": 1.470525,
+      "sources": 4,
+      "time": "2026-09-29T02:00:00+00:00"
+    },
+    {
+      "price": 1.4885,
+      "sources": 4,
+      "time": "2026-09-29T03:00:00+00:00"
+    },
+    {
+      "price": 1.4877,
+      "sources": 4,
+      "time": "2026-09-29T04:00:00+00:00"
+    },
+    {
+      "price": 1.491375,
+      "sources": 4,
+      "time": "2026-09-29T05:00:00+00:00"
+    },
+    {
+      "price": 1.50205,
+      "sources": 4,
+      "time": "2026-09-29T06:00:00+00:00"
+    },
+    {
+      "price": 1.50505,
+      "sources": 4,
+      "time": "2026-09-29T07:00:00+00:00"
+    },
+    {
+      "price": 1.50675,
+      "sources": 4,
+      "time": "2026-09-29T08:00:00+00:00"
+    },
+    {
+      "price": 1.50305,
+      "sources": 4,
+      "time": "2026-09-29T09:00:00+00:00"
+    },
+    {
+      "price": 1.5077,
+      "sources": 4,
+      "time": "2026-09-29T10:00:00+00:00"
+    },
+    {
+      "price": 1.5079,
+      "sources": 4,
+      "time": "2026-09-29T11:00:00+00:00"
+    },
+    {
+      "price": 1.54795,
+      "sources": 4,
+      "time": "2026-09-29T12:00:00+00:00"
+    },
+    {
+      "price": 1.54745,
+      "sources": 4,
+      "time": "2026-09-29T13:00:00+00:00"
+    },
+    {
+      "price": 1.5496,
+      "sources": 4,
+      "time": "2026-09-29T14:00:00+00:00"
+    }
+  ],
+  "horizons": {
+    "1d": {
+      "history_observations": 14,
+      "status": "PENDING_HISTORY"
+    },
+    "30d": {
+      "history_observations": 14,
+      "status": "PENDING_HISTORY"
+    },
+    "7d": {
+      "history_observations": 14,
+      "status": "PENDING_HISTORY"
+    }
+  },
+  "input_cutoff": "2026-09-29T14:25:00.984444+00:00",
+  "price": 1.5496,
+  "price_observed_hour": "2026-09-29T14:00:00+00:00",
+  "publication": "RESEARCH ONLY \u00b7 UNCALIBRATED",
+  "publication_metadata": {
+    "calibration_status": "UNCALIBRATED",
+    "run_id": 57,
+    "source": "frozen_research_capture",
+    "status": "RESEARCH_ONLY"
+  },
+  "research_run_id": 57,
+  "schema": "xrp-research-dashboard-v1",
+  "snapshot_sha256": "459db6637d4923f599c3f164b86f02db02da94dd0d473bd1f2db189e80d69918",
+  "status": "RESEARCH_SIGNAL_ONLY"
+}
