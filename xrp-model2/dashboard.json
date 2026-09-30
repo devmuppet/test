@@ -1,16 +1,16 @@
 {
-  "captured_at": "2026-09-29T16:28:31.709230+00:00",
-  "core_families_fresh": 6,
+  "captured_at": "2026-09-30T08:42:06.908772+00:00",
+  "core_families_fresh": 7,
   "core_families_present": 10,
   "coverage": {
     "anomaly": "INSUFFICIENT_HISTORY",
     "behaviour": "FRESH",
     "breadth": "FRESH",
-    "cross_asset": "FRESH",
+    "cross_asset": "MISSING_OR_STALE",
     "derivatives": "MISSING_OR_STALE",
     "dislocation": "FRESH",
-    "etf_flow": "MISSING_OR_STALE",
-    "macro": "MISSING_OR_STALE",
+    "etf_flow": "FRESH",
+    "macro": "FRESH",
     "market_plumbing": "FRESH",
     "market_regime": "FRESH",
     "news_attention": "MISSING_OR_STALE",
@@ -19,92 +19,12 @@
     "regulatory_institutional": "MISSING_OR_STALE",
     "relative_strength": "FRESH",
     "sentiment": "MISSING_OR_STALE",
-    "social_attention": "MISSING_OR_STALE",
+    "social_attention": "FRESH",
     "spot_market": "FRESH",
     "supply_flows": "MISSING_OR_STALE",
     "xrpl_economics": "MISSING_OR_STALE"
   },
   "history": [
-    {
-      "price": 1.42233,
-      "sources": 2,
-      "time": "2026-08-30T16:00:00+00:00"
-    },
-    {
-      "price": 1.419425,
-      "sources": 2,
-      "time": "2026-08-30T17:00:00+00:00"
-    },
-    {
-      "price": 1.424315,
-      "sources": 2,
-      "time": "2026-08-30T18:00:00+00:00"
-    },
-    {
-      "price": 1.41115,
-      "sources": 2,
-      "time": "2026-08-30T19:00:00+00:00"
-    },
-    {
-      "price": 1.39568,
-      "sources": 2,
-      "time": "2026-08-30T20:00:00+00:00"
-    },
-    {
-      "price": 1.395345,
-      "sources": 2,
-      "time": "2026-08-30T21:00:00+00:00"
-    },
-    {
-      "price": 1.386025,
-      "sources": 2,
-      "time": "2026-08-30T22:00:00+00:00"
-    },
-    {
-      "price": 1.357505,
-      "sources": 2,
-      "time": "2026-08-30T23:00:00+00:00"
-    },
-    {
-      "price": 1.365055,
-      "sources": 2,
-      "time": "2026-08-31T00:00:00+00:00"
-    },
-    {
-      "price": 1.343395,
-      "sources": 2,
-      "time": "2026-08-31T01:00:00+00:00"
-    },
-    {
-      "price": 1.344485,
-      "sources": 2,
-      "time": "2026-08-31T02:00:00+00:00"
-    },
-    {
-      "price": 1.35442,
-      "sources": 2,
-      "time": "2026-08-31T03:00:00+00:00"
-    },
-    {
-      "price": 1.351395,
-      "sources": 2,
-      "time": "2026-08-31T04:00:00+00:00"
-    },
-    {
-      "price": 1.364045,
-      "sources": 2,
-      "time": "2026-08-31T05:00:00+00:00"
-    },
-    {
-      "price": 1.36445,
-      "sources": 2,
-      "time": "2026-08-31T06:00:00+00:00"
-    },
-    {
-      "price": 1.37285,
-      "sources": 2,
-      "time": "2026-08-31T07:00:00+00:00"
-    },
     {
       "price": 1.373385,
       "sources": 2,
@@ -3626,37 +3546,117 @@
       "time": "2026-09-29T15:00:00+00:00"
     },
     {
-      "price": 1.5187,
-      "sources": 4,
+      "price": 1.51851,
+      "sources": 6,
       "time": "2026-09-29T16:00:00+00:00"
+    },
+    {
+      "price": 1.48055,
+      "sources": 6,
+      "time": "2026-09-29T17:00:00+00:00"
+    },
+    {
+      "price": 1.4916,
+      "sources": 6,
+      "time": "2026-09-29T18:00:00+00:00"
+    },
+    {
+      "price": 1.5003675,
+      "sources": 6,
+      "time": "2026-09-29T19:00:00+00:00"
+    },
+    {
+      "price": 1.4993475,
+      "sources": 6,
+      "time": "2026-09-29T20:00:00+00:00"
+    },
+    {
+      "price": 1.4941,
+      "sources": 6,
+      "time": "2026-09-29T21:00:00+00:00"
+    },
+    {
+      "price": 1.49703,
+      "sources": 6,
+      "time": "2026-09-29T22:00:00+00:00"
+    },
+    {
+      "price": 1.4954275,
+      "sources": 6,
+      "time": "2026-09-29T23:00:00+00:00"
+    },
+    {
+      "price": 1.492075,
+      "sources": 2,
+      "time": "2026-09-30T00:00:00+00:00"
+    },
+    {
+      "price": 1.49465,
+      "sources": 6,
+      "time": "2026-09-30T01:00:00+00:00"
+    },
+    {
+      "price": 1.497175,
+      "sources": 6,
+      "time": "2026-09-30T02:00:00+00:00"
+    },
+    {
+      "price": 1.493425,
+      "sources": 6,
+      "time": "2026-09-30T03:00:00+00:00"
+    },
+    {
+      "price": 1.4966325,
+      "sources": 6,
+      "time": "2026-09-30T04:00:00+00:00"
+    },
+    {
+      "price": 1.49815,
+      "sources": 6,
+      "time": "2026-09-30T05:00:00+00:00"
+    },
+    {
+      "price": 1.497155,
+      "sources": 6,
+      "time": "2026-09-30T06:00:00+00:00"
+    },
+    {
+      "price": 1.499275,
+      "sources": 6,
+      "time": "2026-09-30T07:00:00+00:00"
+    },
+    {
+      "price": 1.495825,
+      "sources": 4,
+      "time": "2026-09-30T08:00:00+00:00"
     }
   ],
   "horizons": {
     "1d": {
-      "history_observations": 1000,
+      "history_observations": 1016,
       "status": "PENDING_VALIDATION"
     },
     "30d": {
-      "history_observations": 1000,
+      "history_observations": 1016,
       "status": "PENDING_VALIDATION"
     },
     "7d": {
-      "history_observations": 1000,
+      "history_observations": 1016,
       "status": "PENDING_VALIDATION"
     }
   },
-  "input_cutoff": "2026-09-29T16:28:30.596855+00:00",
-  "price": 1.5187,
-  "price_observed_hour": "2026-09-29T16:00:00+00:00",
+  "input_cutoff": "2026-09-30T08:42:05.859565+00:00",
+  "price": 1.494075,
+  "price_observed_hour": "2026-09-30T08:00:00+00:00",
   "publication": "RESEARCH ONLY \u00b7 UNCALIBRATED",
   "publication_metadata": {
     "calibration_status": "UNCALIBRATED",
-    "run_id": 59,
+    "run_id": 77,
     "source": "frozen_research_capture",
     "status": "RESEARCH_ONLY"
   },
-  "research_run_id": 59,
+  "research_run_id": 77,
   "schema": "xrp-research-dashboard-v1",
-  "snapshot_sha256": "5063d8ba0732ae5edf4f12ada4498cd0a151a98afc8f264bf0f611b4db9e5a58",
+  "snapshot_sha256": "0c321d5908f3cfde4f3d283e7f80ce033101fd19e617ca98876b81a4568d0e32",
   "status": "QUALIFIED_WITH_COVERAGE_WARNING"
 }
