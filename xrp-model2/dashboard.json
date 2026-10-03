@@ -1,6 +1,6 @@
 {
-  "captured_at": "2026-10-01T17:22:41.857949+00:00",
-  "core_families_fresh": 9,
+  "captured_at": "2026-10-03T16:35:44.653822+00:00",
+  "core_families_fresh": 10,
   "core_families_present": 10,
   "coverage": {
     "anomaly": "INSUFFICIENT_HISTORY",
@@ -9,7 +9,7 @@
     "cross_asset": "FRESH",
     "derivatives": "FRESH",
     "dislocation": "FRESH",
-    "etf_flow": "FRESH",
+    "etf_flow": "MISSING_OR_STALE",
     "macro": "FRESH",
     "market_plumbing": "FRESH",
     "market_regime": "FRESH",
@@ -18,7 +18,7 @@
     "reflexivity": "INSUFFICIENT_HISTORY",
     "regulatory_institutional": "FRESH",
     "relative_strength": "FRESH",
-    "sentiment": "MISSING_OR_STALE",
+    "sentiment": "FRESH",
     "social_attention": "FRESH",
     "spot_market": "FRESH",
     "supply_flows": "FRESH",
@@ -54,354 +54,118 @@
   },
   "decision_cockpit": {
     "attribution_note": "Weighted model attribution describes measured signals associated with the current model view; it is not proof that any factor caused the price move.",
-    "data_quality_score": 0.9,
+    "data_quality_score": 1.0,
     "drivers": [
       {
-        "contribution_delta_previous": null,
-        "name": "price_momentum_1h",
-        "previous_weighted_contribution": null,
-        "signal": 0.691999,
-        "weight": 0.1,
-        "weighted_contribution": 0.0692
-      },
-      {
-        "contribution_delta_previous": 0.01222,
+        "contribution_delta_previous": -0.01222,
         "name": "sentiment",
-        "previous_weighted_contribution": 0.047322,
-        "signal": 0.744277,
+        "previous_weighted_contribution": 0.059542,
+        "signal": 0.591519,
         "weight": 0.08,
-        "weighted_contribution": 0.059542
+        "weighted_contribution": 0.047322
       },
       {
-        "contribution_delta_previous": 0.049519,
-        "name": "price_momentum_6h",
-        "previous_weighted_contribution": -0.009512,
-        "signal": 0.222262,
-        "weight": 0.18,
-        "weighted_contribution": 0.040007
-      },
-      {
-        "contribution_delta_previous": -0.083643,
+        "contribution_delta_previous": -0.008583,
         "name": "market_breadth",
-        "previous_weighted_contribution": 0.060619,
-        "signal": -0.191866,
+        "previous_weighted_contribution": -0.023024,
+        "signal": -0.263393,
         "weight": 0.12,
-        "weighted_contribution": -0.023024
+        "weighted_contribution": -0.031607
       },
       {
-        "contribution_delta_previous": -0.077551,
+        "contribution_delta_previous": -0.006998,
         "name": "price_momentum_24h",
-        "previous_weighted_contribution": 0.056452,
-        "signal": -0.095904,
+        "previous_weighted_contribution": -0.021099,
+        "signal": -0.127713,
         "weight": 0.22,
-        "weighted_contribution": -0.021099
+        "weighted_contribution": -0.028097
       },
       {
-        "contribution_delta_previous": 0.005141,
-        "name": "xrp_btc_6h",
-        "previous_weighted_contribution": -0.018842,
-        "signal": -0.182684,
+        "contribution_delta_previous": -0.014885,
+        "name": "price_momentum_6h",
+        "previous_weighted_contribution": 0.040007,
+        "signal": 0.139569,
+        "weight": 0.18,
+        "weighted_contribution": 0.025122
+      },
+      {
+        "contribution_delta_previous": -0.003353,
+        "name": "xrp_eth_6h",
+        "previous_weighted_contribution": 0.01145,
+        "signal": 0.107959,
         "weight": 0.075,
-        "weighted_contribution": -0.013701
+        "weighted_contribution": 0.008097
       },
       {
         "contribution_delta_previous": null,
-        "name": "xrp_eth_6h",
+        "name": "funding_positioning",
         "previous_weighted_contribution": null,
-        "signal": 0.152671,
-        "weight": 0.075,
-        "weighted_contribution": 0.01145
+        "signal": -0.066568,
+        "weight": 0.06,
+        "weighted_contribution": -0.003994
       },
       {
-        "contribution_delta_previous": 0.020361,
-        "name": "open_interest_change_confirm",
-        "previous_weighted_contribution": -0.010058,
-        "signal": 0.147189,
-        "weight": 0.07,
-        "weighted_contribution": 0.010303
+        "contribution_delta_previous": 0.016764,
+        "name": "xrp_btc_6h",
+        "previous_weighted_contribution": -0.013701,
+        "signal": 0.040836,
+        "weight": 0.075,
+        "weighted_contribution": 0.003063
+      },
+      {
+        "contribution_delta_previous": -0.06685,
+        "name": "price_momentum_1h",
+        "previous_weighted_contribution": 0.0692,
+        "signal": 0.023504,
+        "weight": 0.1,
+        "weighted_contribution": 0.00235
       }
     ],
     "metrics": {
-      "breadth_ratio": 0.6780408738548274,
-      "btc_dominance": 57.45447154504045,
+      "breadth_ratio": 0.5830383558748944,
+      "btc_dominance": 57.59522828411893,
       "exchange_netflow_24h": null,
-      "fear_greed": 74.0,
+      "fear_greed": 67.0,
       "funding_rate": 0.0001,
-      "open_interest": 173860343.5,
-      "return_1h_pct": 0.8518,
-      "return_24h_pct": -0.7696,
-      "return_6h_pct": 0.6781,
-      "social_mentions": 59.0,
-      "xrp_btc_6h_pct": -0.5543,
-      "xrp_eth_6h_pct": 0.4616
+      "open_interest": 171377854.0,
+      "return_1h_pct": 0.0235,
+      "return_24h_pct": -1.0273,
+      "return_6h_pct": 0.4215,
+      "social_mentions": 59.5,
+      "xrp_btc_6h_pct": 0.1226,
+      "xrp_eth_6h_pct": 0.3251
     },
-    "model_score": 0.131311,
+    "model_score": 0.024349,
     "model_version": "M2-research-heuristic-v1",
-    "posture": "BULLISH",
-    "price_change_24h_pct": -0.4361,
-    "price_change_7d_pct": -1.8385,
-    "score_delta_previous": 0.07205,
+    "posture": "NEUTRAL",
+    "price_change_24h_pct": -1.0273,
+    "price_change_7d_pct": -3.6914,
+    "score_delta_previous": -0.106962,
     "top_negative_drivers": [
       "market_breadth",
       "price_momentum_24h",
-      "xrp_btc_6h"
+      "funding_positioning"
     ],
     "top_positive_drivers": [
-      "price_momentum_1h",
       "sentiment",
-      "price_momentum_6h"
+      "price_momentum_6h",
+      "xrp_eth_6h"
     ],
     "warnings": [
-      "Core research coverage is not fully fresh; forecast remains an uncalibrated research estimate.",
       "Research-only options IV/skew and some long-history features are excluded until independently available/mature.",
       "Scenario probabilities are withheld pending prospective out-of-sample calibration."
     ]
   },
   "early_preview": {
-    "directional_lean": "DOWN",
+    "directional_lean": "NEUTRAL",
     "horizon": "24h",
     "neutral_deadband": 0.05,
     "note": "Frozen prospective direction-only research prediction; no probability, price target, range, trade recommendation or production approval.",
-    "signal_score": -0.106112,
+    "signal_score": 0.024349,
     "status": "EXPERIMENTAL_UNCALIBRATED",
-    "validated_outcomes": 12
+    "validated_outcomes": 81
   },
   "history": [
-    {
-      "price": 1.36238,
-      "sources": 2,
-      "time": "2026-09-01T17:00:00+00:00"
-    },
-    {
-      "price": 1.35595,
-      "sources": 2,
-      "time": "2026-09-01T18:00:00+00:00"
-    },
-    {
-      "price": 1.354395,
-      "sources": 2,
-      "time": "2026-09-01T19:00:00+00:00"
-    },
-    {
-      "price": 1.354145,
-      "sources": 2,
-      "time": "2026-09-01T20:00:00+00:00"
-    },
-    {
-      "price": 1.34903,
-      "sources": 2,
-      "time": "2026-09-01T21:00:00+00:00"
-    },
-    {
-      "price": 1.344815,
-      "sources": 2,
-      "time": "2026-09-01T22:00:00+00:00"
-    },
-    {
-      "price": 1.351455,
-      "sources": 2,
-      "time": "2026-09-01T23:00:00+00:00"
-    },
-    {
-      "price": 1.341055,
-      "sources": 2,
-      "time": "2026-09-02T00:00:00+00:00"
-    },
-    {
-      "price": 1.33449,
-      "sources": 2,
-      "time": "2026-09-02T01:00:00+00:00"
-    },
-    {
-      "price": 1.344505,
-      "sources": 2,
-      "time": "2026-09-02T02:00:00+00:00"
-    },
-    {
-      "price": 1.35142,
-      "sources": 2,
-      "time": "2026-09-02T03:00:00+00:00"
-    },
-    {
-      "price": 1.348025,
-      "sources": 2,
-      "time": "2026-09-02T04:00:00+00:00"
-    },
-    {
-      "price": 1.35085,
-      "sources": 2,
-      "time": "2026-09-02T05:00:00+00:00"
-    },
-    {
-      "price": 1.34628,
-      "sources": 2,
-      "time": "2026-09-02T06:00:00+00:00"
-    },
-    {
-      "price": 1.34498,
-      "sources": 2,
-      "time": "2026-09-02T07:00:00+00:00"
-    },
-    {
-      "price": 1.33061,
-      "sources": 2,
-      "time": "2026-09-02T08:00:00+00:00"
-    },
-    {
-      "price": 1.32711,
-      "sources": 2,
-      "time": "2026-09-02T09:00:00+00:00"
-    },
-    {
-      "price": 1.31942,
-      "sources": 2,
-      "time": "2026-09-02T10:00:00+00:00"
-    },
-    {
-      "price": 1.32497,
-      "sources": 2,
-      "time": "2026-09-02T11:00:00+00:00"
-    },
-    {
-      "price": 1.3178,
-      "sources": 2,
-      "time": "2026-09-02T12:00:00+00:00"
-    },
-    {
-      "price": 1.340985,
-      "sources": 2,
-      "time": "2026-09-02T13:00:00+00:00"
-    },
-    {
-      "price": 1.33213,
-      "sources": 2,
-      "time": "2026-09-02T14:00:00+00:00"
-    },
-    {
-      "price": 1.336425,
-      "sources": 2,
-      "time": "2026-09-02T15:00:00+00:00"
-    },
-    {
-      "price": 1.331995,
-      "sources": 2,
-      "time": "2026-09-02T16:00:00+00:00"
-    },
-    {
-      "price": 1.337985,
-      "sources": 2,
-      "time": "2026-09-02T17:00:00+00:00"
-    },
-    {
-      "price": 1.342015,
-      "sources": 2,
-      "time": "2026-09-02T18:00:00+00:00"
-    },
-    {
-      "price": 1.3437,
-      "sources": 2,
-      "time": "2026-09-02T19:00:00+00:00"
-    },
-    {
-      "price": 1.35121,
-      "sources": 2,
-      "time": "2026-09-02T20:00:00+00:00"
-    },
-    {
-      "price": 1.3478,
-      "sources": 2,
-      "time": "2026-09-02T21:00:00+00:00"
-    },
-    {
-      "price": 1.344375,
-      "sources": 2,
-      "time": "2026-09-02T22:00:00+00:00"
-    },
-    {
-      "price": 1.350925,
-      "sources": 2,
-      "time": "2026-09-02T23:00:00+00:00"
-    },
-    {
-      "price": 1.343875,
-      "sources": 2,
-      "time": "2026-09-03T00:00:00+00:00"
-    },
-    {
-      "price": 1.35586,
-      "sources": 2,
-      "time": "2026-09-03T01:00:00+00:00"
-    },
-    {
-      "price": 1.36927,
-      "sources": 2,
-      "time": "2026-09-03T02:00:00+00:00"
-    },
-    {
-      "price": 1.36655,
-      "sources": 2,
-      "time": "2026-09-03T03:00:00+00:00"
-    },
-    {
-      "price": 1.369,
-      "sources": 2,
-      "time": "2026-09-03T04:00:00+00:00"
-    },
-    {
-      "price": 1.368465,
-      "sources": 2,
-      "time": "2026-09-03T05:00:00+00:00"
-    },
-    {
-      "price": 1.364195,
-      "sources": 2,
-      "time": "2026-09-03T06:00:00+00:00"
-    },
-    {
-      "price": 1.36558,
-      "sources": 2,
-      "time": "2026-09-03T07:00:00+00:00"
-    },
-    {
-      "price": 1.3687,
-      "sources": 2,
-      "time": "2026-09-03T08:00:00+00:00"
-    },
-    {
-      "price": 1.361295,
-      "sources": 2,
-      "time": "2026-09-03T09:00:00+00:00"
-    },
-    {
-      "price": 1.364505,
-      "sources": 2,
-      "time": "2026-09-03T10:00:00+00:00"
-    },
-    {
-      "price": 1.37323,
-      "sources": 2,
-      "time": "2026-09-03T11:00:00+00:00"
-    },
-    {
-      "price": 1.386625,
-      "sources": 2,
-      "time": "2026-09-03T12:00:00+00:00"
-    },
-    {
-      "price": 1.39387,
-      "sources": 2,
-      "time": "2026-09-03T13:00:00+00:00"
-    },
-    {
-      "price": 1.4504,
-      "sources": 2,
-      "time": "2026-09-03T14:00:00+00:00"
-    },
-    {
-      "price": 1.46455,
-      "sources": 2,
-      "time": "2026-09-03T15:00:00+00:00"
-    },
     {
       "price": 1.452795,
       "sources": 2,
@@ -3768,29 +3532,263 @@
       "time": "2026-10-01T16:00:00+00:00"
     },
     {
-      "price": 1.49955,
-      "sources": 3,
+      "price": 1.503065,
+      "sources": 5,
       "time": "2026-10-01T17:00:00+00:00"
+    },
+    {
+      "price": 1.50075,
+      "sources": 5,
+      "time": "2026-10-01T18:00:00+00:00"
+    },
+    {
+      "price": 1.49965,
+      "sources": 5,
+      "time": "2026-10-01T19:00:00+00:00"
+    },
+    {
+      "price": 1.4988025,
+      "sources": 6,
+      "time": "2026-10-01T20:00:00+00:00"
+    },
+    {
+      "price": 1.4937825,
+      "sources": 6,
+      "time": "2026-10-01T21:00:00+00:00"
+    },
+    {
+      "price": 1.494075,
+      "sources": 6,
+      "time": "2026-10-01T22:00:00+00:00"
+    },
+    {
+      "price": 1.494025,
+      "sources": 6,
+      "time": "2026-10-01T23:00:00+00:00"
+    },
+    {
+      "price": 1.494275,
+      "sources": 6,
+      "time": "2026-10-02T00:00:00+00:00"
+    },
+    {
+      "price": 1.4871,
+      "sources": 6,
+      "time": "2026-10-02T01:00:00+00:00"
+    },
+    {
+      "price": 1.496825,
+      "sources": 6,
+      "time": "2026-10-02T02:00:00+00:00"
+    },
+    {
+      "price": 1.5011,
+      "sources": 6,
+      "time": "2026-10-02T03:00:00+00:00"
+    },
+    {
+      "price": 1.5288,
+      "sources": 6,
+      "time": "2026-10-02T04:00:00+00:00"
+    },
+    {
+      "price": 1.52084,
+      "sources": 6,
+      "time": "2026-10-02T05:00:00+00:00"
+    },
+    {
+      "price": 1.5247025,
+      "sources": 6,
+      "time": "2026-10-02T06:00:00+00:00"
+    },
+    {
+      "price": 1.520925,
+      "sources": 6,
+      "time": "2026-10-02T07:00:00+00:00"
+    },
+    {
+      "price": 1.5375625,
+      "sources": 6,
+      "time": "2026-10-02T08:00:00+00:00"
+    },
+    {
+      "price": 1.5399725,
+      "sources": 6,
+      "time": "2026-10-02T09:00:00+00:00"
+    },
+    {
+      "price": 1.5393175,
+      "sources": 6,
+      "time": "2026-10-02T10:00:00+00:00"
+    },
+    {
+      "price": 1.5317,
+      "sources": 2,
+      "time": "2026-10-02T11:00:00+00:00"
+    },
+    {
+      "price": 1.5442425,
+      "sources": 6,
+      "time": "2026-10-02T12:00:00+00:00"
+    },
+    {
+      "price": 1.5392425,
+      "sources": 6,
+      "time": "2026-10-02T13:00:00+00:00"
+    },
+    {
+      "price": 1.530275,
+      "sources": 6,
+      "time": "2026-10-02T14:00:00+00:00"
+    },
+    {
+      "price": 1.50787,
+      "sources": 6,
+      "time": "2026-10-02T15:00:00+00:00"
+    },
+    {
+      "price": 1.5046575,
+      "sources": 6,
+      "time": "2026-10-02T16:00:00+00:00"
+    },
+    {
+      "price": 1.4983775,
+      "sources": 6,
+      "time": "2026-10-02T17:00:00+00:00"
+    },
+    {
+      "price": 1.4872075,
+      "sources": 6,
+      "time": "2026-10-02T18:00:00+00:00"
+    },
+    {
+      "price": 1.4646,
+      "sources": 6,
+      "time": "2026-10-02T19:00:00+00:00"
+    },
+    {
+      "price": 1.4742,
+      "sources": 6,
+      "time": "2026-10-02T20:00:00+00:00"
+    },
+    {
+      "price": 1.47475,
+      "sources": 6,
+      "time": "2026-10-02T21:00:00+00:00"
+    },
+    {
+      "price": 1.475125,
+      "sources": 6,
+      "time": "2026-10-02T22:00:00+00:00"
+    },
+    {
+      "price": 1.4834,
+      "sources": 6,
+      "time": "2026-10-02T23:00:00+00:00"
+    },
+    {
+      "price": 1.48805,
+      "sources": 6,
+      "time": "2026-10-03T00:00:00+00:00"
+    },
+    {
+      "price": 1.489445,
+      "sources": 2,
+      "time": "2026-10-03T01:00:00+00:00"
+    },
+    {
+      "price": 1.4881675,
+      "sources": 6,
+      "time": "2026-10-03T02:00:00+00:00"
+    },
+    {
+      "price": 1.4867,
+      "sources": 6,
+      "time": "2026-10-03T03:00:00+00:00"
+    },
+    {
+      "price": 1.4857325,
+      "sources": 6,
+      "time": "2026-10-03T04:00:00+00:00"
+    },
+    {
+      "price": 1.4879475,
+      "sources": 6,
+      "time": "2026-10-03T05:00:00+00:00"
+    },
+    {
+      "price": 1.485925,
+      "sources": 6,
+      "time": "2026-10-03T06:00:00+00:00"
+    },
+    {
+      "price": 1.4830025,
+      "sources": 6,
+      "time": "2026-10-03T07:00:00+00:00"
+    },
+    {
+      "price": 1.4821575,
+      "sources": 6,
+      "time": "2026-10-03T08:00:00+00:00"
+    },
+    {
+      "price": 1.48275,
+      "sources": 6,
+      "time": "2026-10-03T09:00:00+00:00"
+    },
+    {
+      "price": 1.48295,
+      "sources": 6,
+      "time": "2026-10-03T10:00:00+00:00"
+    },
+    {
+      "price": 1.48612,
+      "sources": 2,
+      "time": "2026-10-03T11:00:00+00:00"
+    },
+    {
+      "price": 1.4865975,
+      "sources": 6,
+      "time": "2026-10-03T12:00:00+00:00"
+    },
+    {
+      "price": 1.4860225,
+      "sources": 6,
+      "time": "2026-10-03T13:00:00+00:00"
+    },
+    {
+      "price": 1.48985,
+      "sources": 2,
+      "time": "2026-10-03T14:00:00+00:00"
+    },
+    {
+      "price": 1.48885,
+      "sources": 6,
+      "time": "2026-10-03T15:00:00+00:00"
+    },
+    {
+      "price": 1.4892,
+      "sources": 4,
+      "time": "2026-10-03T16:00:00+00:00"
     }
   ],
   "history_audit": {
-    "aligned_diagnostic_buckets": 12,
-    "imported_price_rows_available_at_cutoff": 1817,
+    "aligned_diagnostic_buckets": 14,
+    "imported_price_rows_available_at_cutoff": 1911,
     "price_rows_with_missing_or_invalid_retrieval_provenance": 135
   },
   "horizons": {
     "14d": {
-      "history_observations": 1049,
+      "history_observations": 1096,
       "readiness": {
         "blockers": [
-          "INCOMPLETE_CORE_INPUT_COVERAGE",
           "PREDICTIVE_MODEL_NOT_FROZEN",
           "MODEL_MATCHED_CALIBRATION_NOT_AVAILABLE",
           "PUBLICATION_APPROVAL_NOT_AVAILABLE",
           "HORIZON_OUTCOME_SCORER_NOT_IMPLEMENTED"
         ],
-        "input_coverage_status": "BLOCKED",
-        "missing_core_family_count": 1,
+        "input_coverage_status": "READY",
+        "missing_core_family_count": 0,
         "outcome_scorer_supports_horizon": false,
         "price_history_required_buckets": 337,
         "validation_status": "BLOCKED_MODEL_NOT_FROZEN"
@@ -3798,16 +3796,15 @@
       "status": "PENDING_VALIDATION"
     },
     "1d": {
-      "history_observations": 1049,
+      "history_observations": 1096,
       "readiness": {
         "blockers": [
-          "INCOMPLETE_CORE_INPUT_COVERAGE",
           "PREDICTIVE_MODEL_NOT_FROZEN",
           "MODEL_MATCHED_CALIBRATION_NOT_AVAILABLE",
           "PUBLICATION_APPROVAL_NOT_AVAILABLE"
         ],
-        "input_coverage_status": "BLOCKED",
-        "missing_core_family_count": 1,
+        "input_coverage_status": "READY",
+        "missing_core_family_count": 0,
         "outcome_scorer_supports_horizon": true,
         "price_history_required_buckets": 25,
         "validation_status": "BLOCKED_MODEL_NOT_FROZEN"
@@ -3815,17 +3812,16 @@
       "status": "PENDING_VALIDATION"
     },
     "30d": {
-      "history_observations": 1049,
+      "history_observations": 1096,
       "readiness": {
         "blockers": [
-          "INCOMPLETE_CORE_INPUT_COVERAGE",
           "PREDICTIVE_MODEL_NOT_FROZEN",
           "MODEL_MATCHED_CALIBRATION_NOT_AVAILABLE",
           "PUBLICATION_APPROVAL_NOT_AVAILABLE",
           "HORIZON_OUTCOME_SCORER_NOT_IMPLEMENTED"
         ],
-        "input_coverage_status": "BLOCKED",
-        "missing_core_family_count": 1,
+        "input_coverage_status": "READY",
+        "missing_core_family_count": 0,
         "outcome_scorer_supports_horizon": false,
         "price_history_required_buckets": 721,
         "validation_status": "BLOCKED_MODEL_NOT_FROZEN"
@@ -3833,17 +3829,16 @@
       "status": "PENDING_VALIDATION"
     },
     "7d": {
-      "history_observations": 1049,
+      "history_observations": 1096,
       "readiness": {
         "blockers": [
-          "INCOMPLETE_CORE_INPUT_COVERAGE",
           "PREDICTIVE_MODEL_NOT_FROZEN",
           "MODEL_MATCHED_CALIBRATION_NOT_AVAILABLE",
           "PUBLICATION_APPROVAL_NOT_AVAILABLE",
           "HORIZON_OUTCOME_SCORER_NOT_IMPLEMENTED"
         ],
-        "input_coverage_status": "BLOCKED",
-        "missing_core_family_count": 1,
+        "input_coverage_status": "READY",
+        "missing_core_family_count": 0,
         "outcome_scorer_supports_horizon": false,
         "price_history_required_buckets": 169,
         "validation_status": "BLOCKED_MODEL_NOT_FROZEN"
@@ -3851,27 +3846,27 @@
       "status": "PENDING_VALIDATION"
     }
   },
-  "input_cutoff": "2026-10-01T17:22:39.612724+00:00",
+  "input_cutoff": "2026-10-03T16:35:42.271611+00:00",
   "learning": {
-    "generated_at": "2026-10-01T17:22:59.828973+00:00",
+    "generated_at": "2026-10-03T16:35:57.174012+00:00",
     "horizons": {
       "1": {
-        "candidate_observations": 24,
-        "candidate_status": "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
+        "candidate_observations": 0,
+        "candidate_status": "EVALUATED_RESEARCH_ONLY",
         "mature_endpoint_gaps": 0,
-        "outcomes_persisted": 82,
-        "private_prediction_outcomes_persisted": 0,
-        "private_predictions_persisted": 0,
-        "snapshots_matured": 82
+        "outcomes_persisted": 151,
+        "private_prediction_outcomes_persisted": 2,
+        "private_predictions_persisted": 3,
+        "snapshots_matured": 151
       },
       "12": {
-        "candidate_observations": 18,
+        "candidate_observations": 48,
         "candidate_status": "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
         "mature_endpoint_gaps": 0,
-        "outcomes_persisted": 57,
+        "outcomes_persisted": 142,
         "private_prediction_outcomes_persisted": 0,
         "private_predictions_persisted": 0,
-        "snapshots_matured": 57
+        "snapshots_matured": 142
       },
       "168": {
         "candidate_observations": 0,
@@ -3883,13 +3878,13 @@
         "snapshots_matured": 0
       },
       "24": {
-        "candidate_observations": 12,
+        "candidate_observations": 40,
         "candidate_status": "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
         "mature_endpoint_gaps": 0,
-        "outcomes_persisted": 40,
+        "outcomes_persisted": 129,
         "private_prediction_outcomes_persisted": 0,
         "private_predictions_persisted": 0,
-        "snapshots_matured": 40
+        "snapshots_matured": 129
       },
       "336": {
         "candidate_observations": 0,
@@ -3901,13 +3896,13 @@
         "snapshots_matured": 0
       },
       "4": {
-        "candidate_observations": 23,
-        "candidate_status": "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
+        "candidate_observations": 53,
+        "candidate_status": "WITHHELD_INSUFFICIENT_EMBARGOED_TRAINING",
         "mature_endpoint_gaps": 0,
-        "outcomes_persisted": 79,
+        "outcomes_persisted": 149,
         "private_prediction_outcomes_persisted": 0,
         "private_predictions_persisted": 0,
-        "snapshots_matured": 79
+        "snapshots_matured": 149
       },
       "720": {
         "candidate_observations": 0,
@@ -3919,65 +3914,65 @@
         "snapshots_matured": 0
       }
     },
-    "mature_feature_outcome_count": 258,
-    "prospective_prediction_count": 0,
-    "snapshot_count": 84,
+    "mature_feature_outcome_count": 571,
+    "prospective_prediction_count": 3,
+    "snapshot_count": 152,
     "weekly_direction_errors": 0,
-    "weekly_scored_count": 0
+    "weekly_scored_count": 2
   },
   "market_brief": {
     "current_market": {
-      "price": 1.49955,
-      "price_observed_hour": "2026-10-01T17:00:00+00:00",
-      "return_24h_pct": -0.4361,
-      "return_7d_pct": -1.8385
+      "price": 1.4892,
+      "price_observed_hour": "2026-10-03T16:00:00+00:00",
+      "return_24h_pct": -1.0273,
+      "return_7d_pct": -3.6914
     },
     "factor_changes": [
       {
-        "change_24h": -1.3509,
+        "change_24h": -0.6253,
         "change_7d": null,
         "change_kind": "PCT",
-        "current": 1.767e-05,
+        "current": 1.756e-05,
         "daily_status": "AVAILABLE",
         "label": "XRP/BTC",
         "metric": "xrp_btc",
-        "observed_hour": "2026-10-01T17:00:00+00:00",
+        "observed_hour": "2026-10-03T16:00:00+00:00",
         "unit": "BTC",
         "weekly_status": "WITHHELD_NO_EXACT_COMPARISON"
       },
       {
-        "change_24h": -1.0872,
+        "change_24h": -0.7062,
         "change_7d": null,
         "change_kind": "PCT",
-        "current": 0.00055495,
+        "current": 0.0005554,
         "daily_status": "AVAILABLE",
         "label": "XRP/ETH",
         "metric": "xrp_eth",
-        "observed_hour": "2026-10-01T17:00:00+00:00",
+        "observed_hour": "2026-10-03T16:00:00+00:00",
         "unit": "ETH",
         "weekly_status": "WITHHELD_NO_EXACT_COMPARISON"
       },
       {
-        "change_24h": -1.657558,
+        "change_24h": -1.752334,
         "change_7d": null,
         "change_kind": "DELTA",
-        "current": 0.67804087,
+        "current": 0.58303836,
         "daily_status": "AVAILABLE",
         "label": "Market breadth",
         "metric": "crypto_market_breadth",
-        "observed_hour": "2026-10-01T17:00:00+00:00",
+        "observed_hour": "2026-10-03T16:00:00+00:00",
         "unit": "advancers_to_decliners",
         "weekly_status": "WITHHELD_NO_EXACT_COMPARISON"
       },
       {
-        "change_24h": 5.0159,
+        "change_24h": -1.5074,
         "change_7d": null,
         "change_kind": "PCT",
-        "current": 173856585.0,
+        "current": 171377854.0,
         "daily_status": "AVAILABLE",
         "label": "Open interest",
         "metric": "open_interest",
-        "observed_hour": "2026-10-01T17:00:00+00:00",
+        "observed_hour": "2026-10-03T16:00:00+00:00",
         "unit": "XRP",
         "weekly_status": "WITHHELD_NO_EXACT_COMPARISON"
       },
@@ -3989,102 +3984,101 @@
         "daily_status": "AVAILABLE",
         "label": "Funding rate",
         "metric": "funding_rate",
-        "observed_hour": "2026-10-01T17:00:00+00:00",
+        "observed_hour": "2026-10-03T16:00:00+00:00",
         "unit": "%",
         "weekly_status": "WITHHELD_NO_EXACT_COMPARISON"
       },
       {
-        "change_24h": 5.0,
+        "change_24h": -5.0,
         "change_7d": null,
         "change_kind": "DELTA",
-        "current": 74.0,
+        "current": 67.0,
         "daily_status": "AVAILABLE",
         "label": "Fear & Greed",
         "metric": "fear_greed",
-        "observed_hour": "2026-10-01T00:00:00+00:00",
+        "observed_hour": "2026-10-03T00:00:00+00:00",
         "unit": "index",
         "weekly_status": "WITHHELD_NO_EXACT_COMPARISON"
       },
       {
-        "change_24h": 10.2804,
+        "change_24h": -3.252,
         "change_7d": null,
         "change_kind": "PCT",
-        "current": 59.0,
+        "current": 59.5,
         "daily_status": "AVAILABLE",
         "label": "Social attention",
         "metric": "social_mentions",
-        "observed_hour": "2026-10-01T17:00:00+00:00",
+        "observed_hour": "2026-10-03T16:00:00+00:00",
         "unit": "count",
         "weekly_status": "WITHHELD_NO_EXACT_COMPARISON"
       },
       {
-        "change_24h": 0.245417,
+        "change_24h": 0.082806,
         "change_7d": null,
         "change_kind": "DELTA",
-        "current": 57.45447155,
+        "current": 57.59522828,
         "daily_status": "AVAILABLE",
         "label": "BTC dominance",
         "metric": "btc_dominance",
-        "observed_hour": "2026-10-01T17:00:00+00:00",
+        "observed_hour": "2026-10-03T16:00:00+00:00",
         "unit": "%",
         "weekly_status": "WITHHELD_NO_EXACT_COMPARISON"
       }
     ],
     "limitations": [
-      "Core research coverage is not fully fresh; forecast remains an uncalibrated research estimate.",
       "Research-only options IV/skew and some long-history features are excluded until independently available/mature.",
       "Scenario probabilities are withheld pending prospective out-of-sample calibration."
     ],
     "model_attribution": {
       "mixed_evidence": true,
-      "model_score": 0.131311,
+      "model_score": 0.024349,
       "note": "Model attribution identifies measured inputs associated with the current model score. It does not establish that those inputs caused the observed XRP price move.",
       "opposing_drivers": [
         {
-          "contribution_delta_previous": -0.083643,
+          "contribution_delta_previous": -0.008583,
           "name": "market_breadth",
-          "signal": -0.191866,
-          "weighted_contribution": -0.023024
+          "signal": -0.263393,
+          "weighted_contribution": -0.031607
         },
         {
-          "contribution_delta_previous": -0.077551,
+          "contribution_delta_previous": -0.006998,
           "name": "price_momentum_24h",
-          "signal": -0.095904,
-          "weighted_contribution": -0.021099
+          "signal": -0.127713,
+          "weighted_contribution": -0.028097
         },
         {
-          "contribution_delta_previous": 0.005141,
-          "name": "xrp_btc_6h",
-          "signal": -0.182684,
-          "weighted_contribution": -0.013701
+          "contribution_delta_previous": null,
+          "name": "funding_positioning",
+          "signal": -0.066568,
+          "weighted_contribution": -0.003994
         }
       ],
-      "posture": "BULLISH",
-      "score_delta_previous": 0.07205,
+      "posture": "NEUTRAL",
+      "score_delta_previous": -0.106962,
       "supporting_drivers": [
         {
-          "contribution_delta_previous": null,
-          "name": "price_momentum_1h",
-          "signal": 0.691999,
-          "weighted_contribution": 0.0692
-        },
-        {
-          "contribution_delta_previous": 0.01222,
+          "contribution_delta_previous": -0.01222,
           "name": "sentiment",
-          "signal": 0.744277,
-          "weighted_contribution": 0.059542
+          "signal": 0.591519,
+          "weighted_contribution": 0.047322
         },
         {
-          "contribution_delta_previous": 0.049519,
+          "contribution_delta_previous": -0.014885,
           "name": "price_momentum_6h",
-          "signal": 0.222262,
-          "weighted_contribution": 0.040007
+          "signal": 0.139569,
+          "weighted_contribution": 0.025122
         },
         {
-          "contribution_delta_previous": null,
+          "contribution_delta_previous": -0.003353,
           "name": "xrp_eth_6h",
-          "signal": 0.152671,
-          "weighted_contribution": 0.01145
+          "signal": 0.107959,
+          "weighted_contribution": 0.008097
+        },
+        {
+          "contribution_delta_previous": 0.016764,
+          "name": "xrp_btc_6h",
+          "signal": 0.040836,
+          "weighted_contribution": 0.003063
         }
       ]
     },
@@ -4093,66 +4087,2171 @@
     "publication_status": "RESEARCH_ONLY",
     "schema_version": "xrp_dashboard_market_brief_v1"
   },
-  "post_outcome_reviews": [],
+  "model_review": {
+    "as_of": "2026-10-03T16:35:57.174012+00:00",
+    "association_only_note": "Frozen feature values are point-in-time associations; no causal events are inferred.",
+    "generated_at": "2026-10-03T16:35:57.174012+00:00",
+    "method": "Descriptive exact 3-class accuracy; no fitting, pooling, or automatic promotion.",
+    "not_model2_production": true,
+    "periods": {
+      "daily": {
+        "horizons": {
+          "168": {
+            "candidate": {
+              "calibration_n": null,
+              "candidate_status": "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
+              "gate_reasons": [
+                "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
+                "UNCALIBRATED_RESEARCH_ONLY; NO_AUTOMATIC_PROMOTION"
+              ],
+              "observations": 0,
+              "promotion_eligible": false,
+              "test_n": null,
+              "train_n": null
+            },
+            "horizon_hours": 168,
+            "largest_misses": [],
+            "non_overlapping_calls": {
+              "accuracy_pct": null,
+              "benchmarks": {
+                "always_down_accuracy_pct": null,
+                "always_neutral_accuracy_pct": null,
+                "always_up_accuracy_pct": null
+              },
+              "confusion_matrix": {
+                "DOWN": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "NEUTRAL": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "UP": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                }
+              },
+              "correct_count": 0,
+              "incorrect_count": 0,
+              "scored_count": 0
+            },
+            "nonoverlap_rule": "Sorted by issue time; include a call only when it starts at/after the prior included call's horizon endpoint.",
+            "rolling_calls": {
+              "accuracy_pct": null,
+              "benchmarks": {
+                "always_down_accuracy_pct": null,
+                "always_neutral_accuracy_pct": null,
+                "always_up_accuracy_pct": null
+              },
+              "confusion_matrix": {
+                "DOWN": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "NEUTRAL": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "UP": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                }
+              },
+              "correct_count": 0,
+              "incorrect_count": 0,
+              "scored_count": 0
+            },
+            "window_end": "2026-10-03T16:35:57.174012+00:00",
+            "window_start": "2026-10-02T16:35:57.174012+00:00"
+          },
+          "24": {
+            "candidate": {
+              "calibration_n": null,
+              "candidate_status": "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
+              "gate_reasons": [
+                "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
+                "UNCALIBRATED_RESEARCH_ONLY; NO_AUTOMATIC_PROMOTION"
+              ],
+              "observations": 40,
+              "promotion_eligible": false,
+              "test_n": null,
+              "train_n": null
+            },
+            "horizon_hours": 24,
+            "largest_misses": [
+              {
+                "actual_direction": "DOWN",
+                "actual_return_pct": -3.885274,
+                "feature_associations": [
+                  {
+                    "feature": "xrp_usd_price",
+                    "independence_group": "GATE",
+                    "missing": false,
+                    "observed_at": "2026-10-02T12:35:54.987000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T12:35:55.723621+00:00",
+                    "source_registry_id": "19",
+                    "unit": "USD",
+                    "value": 1.54455
+                  },
+                  {
+                    "feature": "open_interest",
+                    "independence_group": "BITGET",
+                    "missing": false,
+                    "observed_at": "2026-10-02T12:35:56.256000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T12:35:56.378349+00:00",
+                    "source_registry_id": "51",
+                    "unit": "XRP",
+                    "value": 173238941.0
+                  },
+                  {
+                    "feature": "funding_rate",
+                    "independence_group": "BITGET",
+                    "missing": false,
+                    "observed_at": "2026-10-02T12:35:56.256000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T12:35:56.378349+00:00",
+                    "source_registry_id": "51",
+                    "unit": "rate",
+                    "value": 0.0001
+                  },
+                  {
+                    "feature": "fear_greed",
+                    "independence_group": "ALTERNATIVE_ME",
+                    "missing": false,
+                    "observed_at": "2026-10-02T00:00:00+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T12:35:54.157411+00:00",
+                    "source_registry_id": "58",
+                    "unit": "index",
+                    "value": 72.0
+                  },
+                  {
+                    "feature": "basis_bps",
+                    "independence_group": "BITGET",
+                    "missing": false,
+                    "observed_at": "2026-10-02T12:35:56.256000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T12:35:56.378349+00:00",
+                    "source_registry_id": "51",
+                    "unit": "bps",
+                    "value": 0.6947328569628652
+                  },
+                  {
+                    "feature": "orderbook_depth_usd_1pct",
+                    "independence_group": "GATE",
+                    "missing": false,
+                    "observed_at": "2026-10-02T12:35:54.987000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T12:35:55.723621+00:00",
+                    "source_registry_id": "19",
+                    "unit": "USD",
+                    "value": 385190.77651
+                  },
+                  {
+                    "feature": "signed_trades_cvd",
+                    "independence_group": "COINBASE",
+                    "missing": false,
+                    "observed_at": "2026-10-02T12:35:52.757567+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T12:35:54.105037+00:00",
+                    "source_registry_id": "15",
+                    "unit": "USD",
+                    "value": -239221.8641028388
+                  },
+                  {
+                    "feature": "crypto_market_breadth",
+                    "independence_group": "COINLORE",
+                    "missing": false,
+                    "observed_at": "2026-10-02T12:32:05+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T12:35:54.043424+00:00",
+                    "source_registry_id": "62",
+                    "unit": "advancers_to_decliners",
+                    "value": 2.193548387096774
+                  },
+                  {
+                    "feature": "btc_dominance",
+                    "independence_group": "COINGECKO",
+                    "missing": false,
+                    "observed_at": "2026-10-02T12:33:26+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T12:35:54.504694+00:00",
+                    "source_registry_id": "47",
+                    "unit": "%",
+                    "value": 58.85305199482599
+                  },
+                  {
+                    "feature": "total_market_cap_usd",
+                    "independence_group": "COINGECKO",
+                    "missing": false,
+                    "observed_at": "2026-10-02T12:33:26+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T12:35:54.504694+00:00",
+                    "source_registry_id": "47",
+                    "unit": "USD",
+                    "value": 2969081327337.179
+                  },
+                  {
+                    "feature": "social_mentions",
+                    "independence_group": "MASTODON",
+                    "missing": false,
+                    "observed_at": "2026-10-02T12:35:54.525989+00:00",
+                    "released_at": "2026-10-02T10:45:33.805000+00:00",
+                    "retrieved_at": "2026-10-02T12:35:54.525989+00:00",
+                    "source_registry_id": "53",
+                    "unit": "count",
+                    "value": 40.0
+                  },
+                  {
+                    "feature": "social_unique_authors",
+                    "independence_group": "MASTODON",
+                    "missing": false,
+                    "observed_at": "2026-10-02T12:35:54.525989+00:00",
+                    "released_at": "2026-10-02T10:45:33.805000+00:00",
+                    "retrieved_at": "2026-10-02T12:35:54.525989+00:00",
+                    "source_registry_id": "53",
+                    "unit": "count",
+                    "value": 8.0
+                  },
+                  {
+                    "feature": "news_volume",
+                    "independence_group": "CRYPTOSLATE",
+                    "missing": false,
+                    "observed_at": "2026-10-02T12:35:57.362752+00:00",
+                    "released_at": "2026-10-01T20:20:56+00:00",
+                    "retrieved_at": "2026-10-02T12:35:57.362752+00:00",
+                    "source_registry_id": "1063542434",
+                    "unit": "count",
+                    "value": 10.0
+                  },
+                  {
+                    "feature": "fud_stress",
+                    "independence_group": "FUDINDEX",
+                    "missing": false,
+                    "observed_at": "2026-10-02T00:00:00+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T12:35:55.503194+00:00",
+                    "source_registry_id": "10",
+                    "unit": "index",
+                    "value": 4.0
+                  },
+                  {
+                    "feature": "xrp_etp_flow_usd",
+                    "independence_group": "XRP_INSIGHTS",
+                    "missing": false,
+                    "observed_at": "2026-10-02T00:00:00+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T12:35:55.775029+00:00",
+                    "source_registry_id": "6",
+                    "unit": "USD",
+                    "value": 25620000.0
+                  },
+                  {
+                    "feature": "xrp_etp_aum_usd",
+                    "independence_group": "XRP_INSIGHTS",
+                    "missing": false,
+                    "observed_at": "2026-10-02T00:00:00+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T12:35:55.775029+00:00",
+                    "source_registry_id": "6",
+                    "unit": "USD",
+                    "value": 1769900000.0
+                  }
+                ],
+                "issued_at": "2026-10-02T12:36:36.308818+00:00",
+                "outcome_timestamp": "2026-10-03T12:36:36.308818+00:00",
+                "predicted_direction": "UP",
+                "prediction_sha256": "bb53acd88dbe1d9e8281f1d589c44a9888afef364b47aa45db24fce3e9dc5705"
+              },
+              {
+                "actual_direction": "DOWN",
+                "actual_return_pct": -3.676027,
+                "feature_associations": [
+                  {
+                    "feature": "xrp_usd_price",
+                    "independence_group": "GATE",
+                    "missing": false,
+                    "observed_at": "2026-10-02T09:57:46.470000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T09:57:46.581151+00:00",
+                    "source_registry_id": "19",
+                    "unit": "USD",
+                    "value": 1.54025
+                  },
+                  {
+                    "feature": "open_interest",
+                    "independence_group": "BITGET",
+                    "missing": false,
+                    "observed_at": "2026-10-02T09:57:47.108000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T09:57:47.220717+00:00",
+                    "source_registry_id": "51",
+                    "unit": "XRP",
+                    "value": 173029126.0
+                  },
+                  {
+                    "feature": "funding_rate",
+                    "independence_group": "BITGET",
+                    "missing": false,
+                    "observed_at": "2026-10-02T09:57:47.108000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T09:57:47.220717+00:00",
+                    "source_registry_id": "51",
+                    "unit": "rate",
+                    "value": 0.0001
+                  },
+                  {
+                    "feature": "fear_greed",
+                    "independence_group": "ALTERNATIVE_ME",
+                    "missing": false,
+                    "observed_at": "2026-10-02T00:00:00+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T09:57:45.464199+00:00",
+                    "source_registry_id": "58",
+                    "unit": "index",
+                    "value": 72.0
+                  },
+                  {
+                    "feature": "basis_bps",
+                    "independence_group": "BITGET",
+                    "missing": false,
+                    "observed_at": "2026-10-02T09:57:47.108000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T09:57:47.220717+00:00",
+                    "source_registry_id": "51",
+                    "unit": "bps",
+                    "value": 0.25718741317737326
+                  },
+                  {
+                    "feature": "orderbook_depth_usd_1pct",
+                    "independence_group": "GATE",
+                    "missing": false,
+                    "observed_at": "2026-10-02T09:57:46.470000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T09:57:46.581151+00:00",
+                    "source_registry_id": "19",
+                    "unit": "USD",
+                    "value": 440081.68166
+                  },
+                  {
+                    "feature": "signed_trades_cvd",
+                    "independence_group": "BITGET",
+                    "missing": false,
+                    "observed_at": "2026-10-02T09:57:43.084000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T09:57:45.442425+00:00",
+                    "source_registry_id": "51",
+                    "unit": "USD",
+                    "value": 27356.682229189995
+                  },
+                  {
+                    "feature": "crypto_market_breadth",
+                    "independence_group": "COINLORE",
+                    "missing": false,
+                    "observed_at": "2026-10-02T09:56:03+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T09:57:45.350239+00:00",
+                    "source_registry_id": "62",
+                    "unit": "advancers_to_decliners",
+                    "value": 2.09375
+                  },
+                  {
+                    "feature": "btc_dominance",
+                    "independence_group": "COINPAPRIKA",
+                    "missing": false,
+                    "observed_at": "2026-10-02T09:53:24+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T09:57:47.098319+00:00",
+                    "source_registry_id": "72",
+                    "unit": "%",
+                    "value": 56.47
+                  },
+                  {
+                    "feature": "total_market_cap_usd",
+                    "independence_group": "COINPAPRIKA",
+                    "missing": false,
+                    "observed_at": "2026-10-02T09:53:24+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T09:57:47.098319+00:00",
+                    "source_registry_id": "72",
+                    "unit": "USD",
+                    "value": 3069030644024.0
+                  },
+                  {
+                    "feature": "social_mentions",
+                    "independence_group": "MASTODON",
+                    "missing": false,
+                    "observed_at": "2026-10-02T09:57:45.858238+00:00",
+                    "released_at": "2026-10-02T04:56:05+00:00",
+                    "retrieved_at": "2026-10-02T09:57:45.858238+00:00",
+                    "source_registry_id": "53",
+                    "unit": "count",
+                    "value": 40.0
+                  },
+                  {
+                    "feature": "social_unique_authors",
+                    "independence_group": "MASTODON",
+                    "missing": false,
+                    "observed_at": "2026-10-02T09:57:45.858238+00:00",
+                    "released_at": "2026-10-02T04:56:05+00:00",
+                    "retrieved_at": "2026-10-02T09:57:45.858238+00:00",
+                    "source_registry_id": "53",
+                    "unit": "count",
+                    "value": 8.0
+                  },
+                  {
+                    "feature": "news_volume",
+                    "independence_group": "CRYPTOSLATE",
+                    "missing": false,
+                    "observed_at": "2026-10-02T09:57:48.105162+00:00",
+                    "released_at": "2026-10-01T20:20:56+00:00",
+                    "retrieved_at": "2026-10-02T09:57:48.105162+00:00",
+                    "source_registry_id": "1063542434",
+                    "unit": "count",
+                    "value": 10.0
+                  },
+                  {
+                    "feature": "fud_stress",
+                    "independence_group": "FUDINDEX",
+                    "missing": false,
+                    "observed_at": "2026-10-02T00:00:00+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T09:57:46.279329+00:00",
+                    "source_registry_id": "10",
+                    "unit": "index",
+                    "value": 4.0
+                  },
+                  {
+                    "feature": "xrp_etp_flow_usd",
+                    "independence_group": "XRP_INSIGHTS",
+                    "missing": false,
+                    "observed_at": "2026-10-02T00:00:00+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T09:57:46.596382+00:00",
+                    "source_registry_id": "6",
+                    "unit": "USD",
+                    "value": 25620000.0
+                  },
+                  {
+                    "feature": "xrp_etp_aum_usd",
+                    "independence_group": "XRP_INSIGHTS",
+                    "missing": false,
+                    "observed_at": "2026-10-02T00:00:00+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T09:57:46.596382+00:00",
+                    "source_registry_id": "6",
+                    "unit": "USD",
+                    "value": 1769900000.0
+                  }
+                ],
+                "issued_at": "2026-10-02T09:58:17.017008+00:00",
+                "outcome_timestamp": "2026-10-03T09:58:17.017008+00:00",
+                "predicted_direction": "UP",
+                "prediction_sha256": "ae21cad0f6d62d2aabe789bdaf6b8cbaa8925d0667ef9dea500ceab087f44ae8"
+              },
+              {
+                "actual_direction": "DOWN",
+                "actual_return_pct": -3.667717,
+                "feature_associations": [
+                  {
+                    "feature": "xrp_usd_price",
+                    "independence_group": "BITGET",
+                    "missing": false,
+                    "observed_at": "2026-10-02T10:16:29.013000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T10:16:29.102128+00:00",
+                    "source_registry_id": "51",
+                    "unit": "USD",
+                    "value": 1.53965
+                  },
+                  {
+                    "feature": "open_interest",
+                    "independence_group": "BITGET",
+                    "missing": false,
+                    "observed_at": "2026-10-02T10:16:30.746000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T10:16:30.840989+00:00",
+                    "source_registry_id": "51",
+                    "unit": "XRP",
+                    "value": 173152368.0
+                  },
+                  {
+                    "feature": "funding_rate",
+                    "independence_group": "BITGET",
+                    "missing": false,
+                    "observed_at": "2026-10-02T10:16:30.746000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T10:16:30.840989+00:00",
+                    "source_registry_id": "51",
+                    "unit": "rate",
+                    "value": 0.0001
+                  },
+                  {
+                    "feature": "fear_greed",
+                    "independence_group": "ALTERNATIVE_ME",
+                    "missing": false,
+                    "observed_at": "2026-10-02T00:00:00+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T10:16:29.015725+00:00",
+                    "source_registry_id": "58",
+                    "unit": "index",
+                    "value": 72.0
+                  },
+                  {
+                    "feature": "basis_bps",
+                    "independence_group": "BITGET",
+                    "missing": false,
+                    "observed_at": "2026-10-02T10:16:30.746000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T10:16:30.840989+00:00",
+                    "source_registry_id": "51",
+                    "unit": "bps",
+                    "value": 0.7683357334364871
+                  },
+                  {
+                    "feature": "orderbook_depth_usd_1pct",
+                    "independence_group": "BITGET",
+                    "missing": false,
+                    "observed_at": "2026-10-02T10:16:29.013000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T10:16:29.102128+00:00",
+                    "source_registry_id": "51",
+                    "unit": "USD",
+                    "value": 4360172.67488203
+                  },
+                  {
+                    "feature": "signed_trades_cvd",
+                    "independence_group": "COINBASE",
+                    "missing": false,
+                    "observed_at": "2026-10-02T10:16:24.993553+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T10:16:28.975085+00:00",
+                    "source_registry_id": "15",
+                    "unit": "USD",
+                    "value": 68780.021550197
+                  },
+                  {
+                    "feature": "crypto_market_breadth",
+                    "independence_group": "COINPAPRIKA",
+                    "missing": false,
+                    "observed_at": "2026-10-02T10:15:14+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T10:16:30.762467+00:00",
+                    "source_registry_id": "72",
+                    "unit": "advancers_to_decliners",
+                    "value": 2.0015220700152208
+                  },
+                  {
+                    "feature": "btc_dominance",
+                    "independence_group": "COINPAPRIKA",
+                    "missing": false,
+                    "observed_at": "2026-10-02T10:14:25+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T10:16:30.714328+00:00",
+                    "source_registry_id": "72",
+                    "unit": "%",
+                    "value": 56.45
+                  },
+                  {
+                    "feature": "total_market_cap_usd",
+                    "independence_group": "COINPAPRIKA",
+                    "missing": false,
+                    "observed_at": "2026-10-02T10:14:25+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T10:16:30.714328+00:00",
+                    "source_registry_id": "72",
+                    "unit": "USD",
+                    "value": 3073227213442.0
+                  },
+                  {
+                    "feature": "social_mentions",
+                    "independence_group": "MASTODON",
+                    "missing": false,
+                    "observed_at": "2026-10-02T10:16:29.430541+00:00",
+                    "released_at": "2026-10-02T04:56:05+00:00",
+                    "retrieved_at": "2026-10-02T10:16:29.430541+00:00",
+                    "source_registry_id": "53",
+                    "unit": "count",
+                    "value": 40.0
+                  },
+                  {
+                    "feature": "social_unique_authors",
+                    "independence_group": "MASTODON",
+                    "missing": false,
+                    "observed_at": "2026-10-02T10:16:29.430541+00:00",
+                    "released_at": "2026-10-02T04:56:05+00:00",
+                    "retrieved_at": "2026-10-02T10:16:29.430541+00:00",
+                    "source_registry_id": "53",
+                    "unit": "count",
+                    "value": 8.0
+                  },
+                  {
+                    "feature": "news_volume",
+                    "independence_group": "CRYPTOSLATE",
+                    "missing": false,
+                    "observed_at": "2026-10-02T10:16:31.708369+00:00",
+                    "released_at": "2026-10-01T20:20:56+00:00",
+                    "retrieved_at": "2026-10-02T10:16:31.708369+00:00",
+                    "source_registry_id": "1063542434",
+                    "unit": "count",
+                    "value": 10.0
+                  },
+                  {
+                    "feature": "fud_stress",
+                    "independence_group": "FUDINDEX",
+                    "missing": false,
+                    "observed_at": "2026-10-02T00:00:00+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T10:16:29.849570+00:00",
+                    "source_registry_id": "10",
+                    "unit": "index",
+                    "value": 4.0
+                  },
+                  {
+                    "feature": "xrp_etp_flow_usd",
+                    "independence_group": "XRP_INSIGHTS",
+                    "missing": false,
+                    "observed_at": "2026-10-02T00:00:00+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T10:16:30.219367+00:00",
+                    "source_registry_id": "6",
+                    "unit": "USD",
+                    "value": 25620000.0
+                  },
+                  {
+                    "feature": "xrp_etp_aum_usd",
+                    "independence_group": "XRP_INSIGHTS",
+                    "missing": false,
+                    "observed_at": "2026-10-02T00:00:00+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-02T10:16:30.219367+00:00",
+                    "source_registry_id": "6",
+                    "unit": "USD",
+                    "value": 1769900000.0
+                  }
+                ],
+                "issued_at": "2026-10-02T10:16:56.955163+00:00",
+                "outcome_timestamp": "2026-10-03T10:16:56.955163+00:00",
+                "predicted_direction": "UP",
+                "prediction_sha256": "8a7e602eda36198722d6be8900ea04882e112b68ff3e0e3da3309bb5b89821ab"
+              }
+            ],
+            "non_overlapping_calls": {
+              "accuracy_pct": 0.0,
+              "benchmarks": {
+                "always_down_accuracy_pct": 100.0,
+                "always_neutral_accuracy_pct": 0.0,
+                "always_up_accuracy_pct": 0.0
+              },
+              "confusion_matrix": {
+                "DOWN": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "NEUTRAL": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "UP": {
+                  "DOWN": 1,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                }
+              },
+              "correct_count": 0,
+              "incorrect_count": 1,
+              "scored_count": 1
+            },
+            "nonoverlap_rule": "Sorted by issue time; include a call only when it starts at/after the prior included call's horizon endpoint.",
+            "rolling_calls": {
+              "accuracy_pct": 3.3333,
+              "benchmarks": {
+                "always_down_accuracy_pct": 100.0,
+                "always_neutral_accuracy_pct": 0.0,
+                "always_up_accuracy_pct": 0.0
+              },
+              "confusion_matrix": {
+                "DOWN": {
+                  "DOWN": 1,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "NEUTRAL": {
+                  "DOWN": 5,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "UP": {
+                  "DOWN": 24,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                }
+              },
+              "correct_count": 1,
+              "incorrect_count": 29,
+              "scored_count": 30
+            },
+            "window_end": "2026-10-03T16:35:57.174012+00:00",
+            "window_start": "2026-10-02T16:35:57.174012+00:00"
+          },
+          "336": {
+            "candidate": {
+              "calibration_n": null,
+              "candidate_status": "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
+              "gate_reasons": [
+                "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
+                "UNCALIBRATED_RESEARCH_ONLY; NO_AUTOMATIC_PROMOTION"
+              ],
+              "observations": 0,
+              "promotion_eligible": false,
+              "test_n": null,
+              "train_n": null
+            },
+            "horizon_hours": 336,
+            "largest_misses": [],
+            "non_overlapping_calls": {
+              "accuracy_pct": null,
+              "benchmarks": {
+                "always_down_accuracy_pct": null,
+                "always_neutral_accuracy_pct": null,
+                "always_up_accuracy_pct": null
+              },
+              "confusion_matrix": {
+                "DOWN": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "NEUTRAL": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "UP": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                }
+              },
+              "correct_count": 0,
+              "incorrect_count": 0,
+              "scored_count": 0
+            },
+            "nonoverlap_rule": "Sorted by issue time; include a call only when it starts at/after the prior included call's horizon endpoint.",
+            "rolling_calls": {
+              "accuracy_pct": null,
+              "benchmarks": {
+                "always_down_accuracy_pct": null,
+                "always_neutral_accuracy_pct": null,
+                "always_up_accuracy_pct": null
+              },
+              "confusion_matrix": {
+                "DOWN": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "NEUTRAL": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "UP": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                }
+              },
+              "correct_count": 0,
+              "incorrect_count": 0,
+              "scored_count": 0
+            },
+            "window_end": "2026-10-03T16:35:57.174012+00:00",
+            "window_start": "2026-10-02T16:35:57.174012+00:00"
+          },
+          "720": {
+            "candidate": {
+              "calibration_n": null,
+              "candidate_status": "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
+              "gate_reasons": [
+                "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
+                "UNCALIBRATED_RESEARCH_ONLY; NO_AUTOMATIC_PROMOTION"
+              ],
+              "observations": 0,
+              "promotion_eligible": false,
+              "test_n": null,
+              "train_n": null
+            },
+            "horizon_hours": 720,
+            "largest_misses": [],
+            "non_overlapping_calls": {
+              "accuracy_pct": null,
+              "benchmarks": {
+                "always_down_accuracy_pct": null,
+                "always_neutral_accuracy_pct": null,
+                "always_up_accuracy_pct": null
+              },
+              "confusion_matrix": {
+                "DOWN": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "NEUTRAL": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "UP": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                }
+              },
+              "correct_count": 0,
+              "incorrect_count": 0,
+              "scored_count": 0
+            },
+            "nonoverlap_rule": "Sorted by issue time; include a call only when it starts at/after the prior included call's horizon endpoint.",
+            "rolling_calls": {
+              "accuracy_pct": null,
+              "benchmarks": {
+                "always_down_accuracy_pct": null,
+                "always_neutral_accuracy_pct": null,
+                "always_up_accuracy_pct": null
+              },
+              "confusion_matrix": {
+                "DOWN": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "NEUTRAL": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "UP": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                }
+              },
+              "correct_count": 0,
+              "incorrect_count": 0,
+              "scored_count": 0
+            },
+            "window_end": "2026-10-03T16:35:57.174012+00:00",
+            "window_start": "2026-10-02T16:35:57.174012+00:00"
+          }
+        },
+        "window_end": "2026-10-03T16:35:57.174012+00:00",
+        "window_start": "2026-10-02T16:35:57.174012+00:00"
+      },
+      "weekly": {
+        "horizons": {
+          "168": {
+            "candidate": {
+              "calibration_n": null,
+              "candidate_status": "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
+              "gate_reasons": [
+                "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
+                "UNCALIBRATED_RESEARCH_ONLY; NO_AUTOMATIC_PROMOTION"
+              ],
+              "observations": 0,
+              "promotion_eligible": false,
+              "test_n": null,
+              "train_n": null
+            },
+            "horizon_hours": 168,
+            "largest_misses": [],
+            "non_overlapping_calls": {
+              "accuracy_pct": null,
+              "benchmarks": {
+                "always_down_accuracy_pct": null,
+                "always_neutral_accuracy_pct": null,
+                "always_up_accuracy_pct": null
+              },
+              "confusion_matrix": {
+                "DOWN": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "NEUTRAL": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "UP": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                }
+              },
+              "correct_count": 0,
+              "incorrect_count": 0,
+              "scored_count": 0
+            },
+            "nonoverlap_rule": "Sorted by issue time; include a call only when it starts at/after the prior included call's horizon endpoint.",
+            "rolling_calls": {
+              "accuracy_pct": null,
+              "benchmarks": {
+                "always_down_accuracy_pct": null,
+                "always_neutral_accuracy_pct": null,
+                "always_up_accuracy_pct": null
+              },
+              "confusion_matrix": {
+                "DOWN": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "NEUTRAL": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "UP": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                }
+              },
+              "correct_count": 0,
+              "incorrect_count": 0,
+              "scored_count": 0
+            },
+            "window_end": "2026-10-03T16:35:57.174012+00:00",
+            "window_start": "2026-09-26T16:35:57.174012+00:00"
+          },
+          "24": {
+            "candidate": {
+              "calibration_n": null,
+              "candidate_status": "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
+              "gate_reasons": [
+                "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
+                "UNCALIBRATED_RESEARCH_ONLY; NO_AUTOMATIC_PROMOTION"
+              ],
+              "observations": 40,
+              "promotion_eligible": false,
+              "test_n": null,
+              "train_n": null
+            },
+            "horizon_hours": 24,
+            "largest_misses": [
+              {
+                "actual_direction": "UP",
+                "actual_return_pct": 4.101857,
+                "feature_associations": [
+                  {
+                    "feature": "xrp_usd_price",
+                    "independence_group": "GATE",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:39:24.589000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:39:24.788158+00:00",
+                    "source_registry_id": "19",
+                    "unit": "USD",
+                    "value": 1.4864
+                  },
+                  {
+                    "feature": "open_interest",
+                    "independence_group": "BITGET",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:39:25.595000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:39:25.699010+00:00",
+                    "source_registry_id": "51",
+                    "unit": "XRP",
+                    "value": 171544094.0
+                  },
+                  {
+                    "feature": "funding_rate",
+                    "independence_group": "BITGET",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:39:25.595000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:39:25.699010+00:00",
+                    "source_registry_id": "51",
+                    "unit": "rate",
+                    "value": 0.0001
+                  },
+                  {
+                    "feature": "fear_greed",
+                    "independence_group": "ALTERNATIVE_ME",
+                    "missing": false,
+                    "observed_at": "2026-10-01T00:00:00+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:39:23.565188+00:00",
+                    "source_registry_id": "58",
+                    "unit": "index",
+                    "value": 74.0
+                  },
+                  {
+                    "feature": "basis_bps",
+                    "independence_group": "BITGET",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:39:25.595000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:39:25.699010+00:00",
+                    "source_registry_id": "51",
+                    "unit": "bps",
+                    "value": 0.19484717528772677
+                  },
+                  {
+                    "feature": "orderbook_depth_usd_1pct",
+                    "independence_group": "GATE",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:39:24.589000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:39:24.788158+00:00",
+                    "source_registry_id": "19",
+                    "unit": "USD",
+                    "value": 456703.28595
+                  },
+                  {
+                    "feature": "signed_trades_cvd",
+                    "independence_group": "BITGET",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:39:22.254000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:39:23.648614+00:00",
+                    "source_registry_id": "51",
+                    "unit": "USD",
+                    "value": -866.1490328200011
+                  },
+                  {
+                    "feature": "crypto_market_breadth",
+                    "independence_group": "COINLORE",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:36:02+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:39:23.563049+00:00",
+                    "source_registry_id": "62",
+                    "unit": "advancers_to_decliners",
+                    "value": 0.43283582089552236
+                  },
+                  {
+                    "feature": "btc_dominance",
+                    "independence_group": "COINPAPRIKA",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:37:24+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:39:25.552540+00:00",
+                    "source_registry_id": "72",
+                    "unit": "%",
+                    "value": 56.07
+                  },
+                  {
+                    "feature": "total_market_cap_usd",
+                    "independence_group": "COINPAPRIKA",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:37:24+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:39:25.552540+00:00",
+                    "source_registry_id": "72",
+                    "unit": "USD",
+                    "value": 3000470012582.0
+                  },
+                  {
+                    "feature": "social_mentions",
+                    "independence_group": "MASTODON",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:39:24.435749+00:00",
+                    "released_at": "2026-10-01T08:06:37.582000+00:00",
+                    "retrieved_at": "2026-10-01T10:39:24.435749+00:00",
+                    "source_registry_id": "53",
+                    "unit": "count",
+                    "value": 40.0
+                  },
+                  {
+                    "feature": "social_unique_authors",
+                    "independence_group": "MASTODON",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:39:24.435749+00:00",
+                    "released_at": "2026-10-01T08:06:37.582000+00:00",
+                    "retrieved_at": "2026-10-01T10:39:24.435749+00:00",
+                    "source_registry_id": "53",
+                    "unit": "count",
+                    "value": 8.0
+                  },
+                  {
+                    "feature": "news_volume",
+                    "independence_group": "CRYPTOSLATE",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:39:26.687673+00:00",
+                    "released_at": "2026-09-28T10:30:17+00:00",
+                    "retrieved_at": "2026-10-01T10:39:26.687673+00:00",
+                    "source_registry_id": "1063542434",
+                    "unit": "count",
+                    "value": 10.0
+                  },
+                  {
+                    "feature": "fud_stress",
+                    "independence_group": "FUDINDEX",
+                    "missing": false,
+                    "observed_at": "2026-10-01T00:00:00+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:39:24.320068+00:00",
+                    "source_registry_id": "10",
+                    "unit": "index",
+                    "value": 4.0
+                  },
+                  {
+                    "feature": "xrp_etp_flow_usd",
+                    "independence_group": "XRP_INSIGHTS",
+                    "missing": false,
+                    "observed_at": "2026-10-01T00:00:00+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:39:24.663326+00:00",
+                    "source_registry_id": "6",
+                    "unit": "USD",
+                    "value": 45090000.0
+                  },
+                  {
+                    "feature": "xrp_etp_aum_usd",
+                    "independence_group": "XRP_INSIGHTS",
+                    "missing": false,
+                    "observed_at": "2026-10-01T00:00:00+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:39:24.663326+00:00",
+                    "source_registry_id": "6",
+                    "unit": "USD",
+                    "value": 1774450000.0
+                  }
+                ],
+                "issued_at": "2026-10-01T10:39:43.583879+00:00",
+                "outcome_timestamp": "2026-10-02T10:39:43.583879+00:00",
+                "predicted_direction": "DOWN",
+                "prediction_sha256": "bc0db48692a65d287259f027af6422121a27cd27f6bff3afb7fd8b3e6ee7bcd5"
+              },
+              {
+                "actual_direction": "DOWN",
+                "actual_return_pct": -3.939955,
+                "feature_associations": [
+                  {
+                    "feature": "xrp_usd_price",
+                    "independence_group": "OKX",
+                    "missing": false,
+                    "observed_at": "2026-09-30T13:26:47.004000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-09-30T13:26:47.080881+00:00",
+                    "source_registry_id": "13",
+                    "unit": "USD",
+                    "value": 1.53885
+                  },
+                  {
+                    "feature": "open_interest",
+                    "independence_group": "BITGET",
+                    "missing": false,
+                    "observed_at": "2026-09-30T13:26:48.875000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-09-30T13:26:48.960434+00:00",
+                    "source_registry_id": "51",
+                    "unit": "XRP",
+                    "value": 167265184.0
+                  },
+                  {
+                    "feature": "funding_rate",
+                    "independence_group": "BITGET",
+                    "missing": false,
+                    "observed_at": "2026-09-30T13:26:48.875000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-09-30T13:26:48.960434+00:00",
+                    "source_registry_id": "51",
+                    "unit": "rate",
+                    "value": 0.0001
+                  },
+                  {
+                    "feature": "fear_greed",
+                    "independence_group": "CMC",
+                    "missing": false,
+                    "observed_at": "2026-09-30T09:23:10.027000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-09-30T09:26:49.150639+00:00",
+                    "source_registry_id": "48",
+                    "unit": "index",
+                    "value": 67.0
+                  },
+                  {
+                    "feature": "basis_bps",
+                    "independence_group": "BITGET",
+                    "missing": false,
+                    "observed_at": "2026-09-30T13:26:48.875000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-09-30T13:26:48.960434+00:00",
+                    "source_registry_id": "51",
+                    "unit": "bps",
+                    "value": 0.8655052516992612
+                  },
+                  {
+                    "feature": "orderbook_depth_usd_1pct",
+                    "independence_group": "OKX",
+                    "missing": false,
+                    "observed_at": "2026-09-30T13:26:47.004000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-09-30T13:26:47.080881+00:00",
+                    "source_registry_id": "13",
+                    "unit": "USD",
+                    "value": 2230426.404928851
+                  },
+                  {
+                    "feature": "signed_trades_cvd",
+                    "independence_group": "COINBASE",
+                    "missing": false,
+                    "observed_at": "2026-09-30T13:26:46.589768+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-09-30T13:26:47.018489+00:00",
+                    "source_registry_id": "15",
+                    "unit": "USD",
+                    "value": 1223.7816523390143
+                  },
+                  {
+                    "feature": "crypto_market_breadth",
+                    "independence_group": "COINLORE",
+                    "missing": false,
+                    "observed_at": "2026-09-30T13:24:03+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-09-30T13:26:47.009845+00:00",
+                    "source_registry_id": "62",
+                    "unit": "advancers_to_decliners",
+                    "value": 1.255813953488372
+                  },
+                  {
+                    "feature": "btc_dominance",
+                    "independence_group": "COINPAPRIKA",
+                    "missing": false,
+                    "observed_at": "2026-09-30T13:24:25+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-09-30T13:26:48.916085+00:00",
+                    "source_registry_id": "72",
+                    "unit": "%",
+                    "value": 56.16
+                  },
+                  {
+                    "feature": "total_market_cap_usd",
+                    "independence_group": "COINPAPRIKA",
+                    "missing": false,
+                    "observed_at": "2026-09-30T13:24:25+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-09-30T13:26:48.916085+00:00",
+                    "source_registry_id": "72",
+                    "unit": "USD",
+                    "value": 3050757018820.0
+                  },
+                  {
+                    "feature": "social_mentions",
+                    "independence_group": "MASTODON",
+                    "missing": false,
+                    "observed_at": "2026-09-30T13:26:47.702361+00:00",
+                    "released_at": "2026-09-30T12:37:06+00:00",
+                    "retrieved_at": "2026-09-30T13:26:47.702361+00:00",
+                    "source_registry_id": "53",
+                    "unit": "count",
+                    "value": 40.0
+                  },
+                  {
+                    "feature": "social_unique_authors",
+                    "independence_group": "MASTODON",
+                    "missing": false,
+                    "observed_at": "2026-09-30T13:26:47.702361+00:00",
+                    "released_at": "2026-09-30T12:37:06+00:00",
+                    "retrieved_at": "2026-09-30T13:26:47.702361+00:00",
+                    "source_registry_id": "53",
+                    "unit": "count",
+                    "value": 6.0
+                  },
+                  {
+                    "feature": "news_volume",
+                    "independence_group": "CRYPTOSLATE",
+                    "missing": false,
+                    "observed_at": "2026-09-30T13:26:50.054567+00:00",
+                    "released_at": "2026-09-28T10:30:17+00:00",
+                    "retrieved_at": "2026-09-30T13:26:50.054567+00:00",
+                    "source_registry_id": "1063542434",
+                    "unit": "count",
+                    "value": 10.0
+                  },
+                  {
+                    "feature": "fud_stress",
+                    "independence_group": "FUDINDEX",
+                    "missing": false,
+                    "observed_at": "2026-09-30T00:00:00+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-09-30T13:26:47.745736+00:00",
+                    "source_registry_id": "10",
+                    "unit": "index",
+                    "value": 4.0
+                  },
+                  {
+                    "feature": "xrp_etp_flow_usd",
+                    "independence_group": "XRP_INSIGHTS",
+                    "missing": false,
+                    "observed_at": "2026-09-30T00:00:00+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-09-30T13:26:48.438028+00:00",
+                    "source_registry_id": "6",
+                    "unit": "USD",
+                    "value": 46480000.0
+                  },
+                  {
+                    "feature": "xrp_etp_aum_usd",
+                    "independence_group": "XRP_INSIGHTS",
+                    "missing": false,
+                    "observed_at": "2026-09-30T00:00:00+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-09-30T13:26:48.438028+00:00",
+                    "source_registry_id": "6",
+                    "unit": "USD",
+                    "value": 1770760000.0
+                  }
+                ],
+                "issued_at": "2026-09-30T13:27:04.485437+00:00",
+                "outcome_timestamp": "2026-10-01T13:27:04.485437+00:00",
+                "predicted_direction": "UP",
+                "prediction_sha256": "81d85f28fde264773f27af25d110138d2032b53beba37f405d50b556b109a0db"
+              },
+              {
+                "actual_direction": "UP",
+                "actual_return_pct": 3.917644,
+                "feature_associations": [
+                  {
+                    "feature": "xrp_usd_price",
+                    "independence_group": "GATE",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:30:33.406000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:30:34.255820+00:00",
+                    "source_registry_id": "19",
+                    "unit": "USD",
+                    "value": 1.4838
+                  },
+                  {
+                    "feature": "open_interest",
+                    "independence_group": "BITGET",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:30:34.851000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:30:34.965947+00:00",
+                    "source_registry_id": "51",
+                    "unit": "XRP",
+                    "value": 171758295.0
+                  },
+                  {
+                    "feature": "funding_rate",
+                    "independence_group": "BITGET",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:30:34.894000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:30:34.969164+00:00",
+                    "source_registry_id": "51",
+                    "unit": "rate",
+                    "value": 0.0001
+                  },
+                  {
+                    "feature": "fear_greed",
+                    "independence_group": "ALTERNATIVE_ME",
+                    "missing": false,
+                    "observed_at": "2026-10-01T00:00:00+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:30:33.091888+00:00",
+                    "source_registry_id": "58",
+                    "unit": "index",
+                    "value": 74.0
+                  },
+                  {
+                    "feature": "basis_bps",
+                    "independence_group": "BITGET",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:30:34.851000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:30:34.965947+00:00",
+                    "source_registry_id": "51",
+                    "unit": "bps",
+                    "value": 0.5884603270844835
+                  },
+                  {
+                    "feature": "orderbook_depth_usd_1pct",
+                    "independence_group": "GATE",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:30:33.406000+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:30:34.255820+00:00",
+                    "source_registry_id": "19",
+                    "unit": "USD",
+                    "value": 429114.24211999995
+                  },
+                  {
+                    "feature": "signed_trades_cvd",
+                    "independence_group": "KRAKEN",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:30:31.783992+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:30:33.164752+00:00",
+                    "source_registry_id": "14",
+                    "unit": "USD",
+                    "value": 0.0
+                  },
+                  {
+                    "feature": "crypto_market_breadth",
+                    "independence_group": "COINPAPRIKA",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:29:14+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:30:35.035398+00:00",
+                    "source_registry_id": "72",
+                    "unit": "advancers_to_decliners",
+                    "value": 0.5941794664510913
+                  },
+                  {
+                    "feature": "btc_dominance",
+                    "independence_group": "COINGECKO",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:30:29+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:30:33.551035+00:00",
+                    "source_registry_id": "47",
+                    "unit": "%",
+                    "value": 58.862697813915034
+                  },
+                  {
+                    "feature": "total_market_cap_usd",
+                    "independence_group": "COINGECKO",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:30:29+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:30:33.551035+00:00",
+                    "source_registry_id": "47",
+                    "unit": "USD",
+                    "value": 2846923270768.1714
+                  },
+                  {
+                    "feature": "social_mentions",
+                    "independence_group": "MASTODON",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:30:33.795024+00:00",
+                    "released_at": "2026-10-01T08:06:37.582000+00:00",
+                    "retrieved_at": "2026-10-01T10:30:33.795024+00:00",
+                    "source_registry_id": "53",
+                    "unit": "count",
+                    "value": 40.0
+                  },
+                  {
+                    "feature": "social_unique_authors",
+                    "independence_group": "MASTODON",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:30:33.795024+00:00",
+                    "released_at": "2026-10-01T08:06:37.582000+00:00",
+                    "retrieved_at": "2026-10-01T10:30:33.795024+00:00",
+                    "source_registry_id": "53",
+                    "unit": "count",
+                    "value": 8.0
+                  },
+                  {
+                    "feature": "news_volume",
+                    "independence_group": "CRYPTOSLATE",
+                    "missing": false,
+                    "observed_at": "2026-10-01T10:30:35.933118+00:00",
+                    "released_at": "2026-09-28T10:30:17+00:00",
+                    "retrieved_at": "2026-10-01T10:30:35.933118+00:00",
+                    "source_registry_id": "1063542434",
+                    "unit": "count",
+                    "value": 10.0
+                  },
+                  {
+                    "feature": "fud_stress",
+                    "independence_group": "FUDINDEX",
+                    "missing": false,
+                    "observed_at": "2026-10-01T00:00:00+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:30:33.910731+00:00",
+                    "source_registry_id": "10",
+                    "unit": "index",
+                    "value": 4.0
+                  },
+                  {
+                    "feature": "xrp_etp_flow_usd",
+                    "independence_group": "XRP_INSIGHTS",
+                    "missing": false,
+                    "observed_at": "2026-10-01T00:00:00+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:30:34.125752+00:00",
+                    "source_registry_id": "6",
+                    "unit": "USD",
+                    "value": 45090000.0
+                  },
+                  {
+                    "feature": "xrp_etp_aum_usd",
+                    "independence_group": "XRP_INSIGHTS",
+                    "missing": false,
+                    "observed_at": "2026-10-01T00:00:00+00:00",
+                    "released_at": null,
+                    "retrieved_at": "2026-10-01T10:30:34.125752+00:00",
+                    "source_registry_id": "6",
+                    "unit": "USD",
+                    "value": 1774450000.0
+                  }
+                ],
+                "issued_at": "2026-10-01T10:30:52.479278+00:00",
+                "outcome_timestamp": "2026-10-02T10:30:52.479278+00:00",
+                "predicted_direction": "DOWN",
+                "prediction_sha256": "fc808d80865e6080c47bf49e2083d382ae4b206d559ae366d78bf309f24908ab"
+              }
+            ],
+            "non_overlapping_calls": {
+              "accuracy_pct": 0.0,
+              "benchmarks": {
+                "always_down_accuracy_pct": 100.0,
+                "always_neutral_accuracy_pct": 0.0,
+                "always_up_accuracy_pct": 0.0
+              },
+              "confusion_matrix": {
+                "DOWN": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "NEUTRAL": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "UP": {
+                  "DOWN": 2,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                }
+              },
+              "correct_count": 0,
+              "incorrect_count": 2,
+              "scored_count": 2
+            },
+            "nonoverlap_rule": "Sorted by issue time; include a call only when it starts at/after the prior included call's horizon endpoint.",
+            "rolling_calls": {
+              "accuracy_pct": 7.4074,
+              "benchmarks": {
+                "always_down_accuracy_pct": 51.8519,
+                "always_neutral_accuracy_pct": 18.5185,
+                "always_up_accuracy_pct": 29.6296
+              },
+              "confusion_matrix": {
+                "DOWN": {
+                  "DOWN": 4,
+                  "NEUTRAL": 14,
+                  "UP": 17
+                },
+                "NEUTRAL": {
+                  "DOWN": 6,
+                  "NEUTRAL": 1,
+                  "UP": 6
+                },
+                "UP": {
+                  "DOWN": 32,
+                  "NEUTRAL": 0,
+                  "UP": 1
+                }
+              },
+              "correct_count": 6,
+              "incorrect_count": 75,
+              "scored_count": 81
+            },
+            "window_end": "2026-10-03T16:35:57.174012+00:00",
+            "window_start": "2026-09-26T16:35:57.174012+00:00"
+          },
+          "336": {
+            "candidate": {
+              "calibration_n": null,
+              "candidate_status": "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
+              "gate_reasons": [
+                "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
+                "UNCALIBRATED_RESEARCH_ONLY; NO_AUTOMATIC_PROMOTION"
+              ],
+              "observations": 0,
+              "promotion_eligible": false,
+              "test_n": null,
+              "train_n": null
+            },
+            "horizon_hours": 336,
+            "largest_misses": [],
+            "non_overlapping_calls": {
+              "accuracy_pct": null,
+              "benchmarks": {
+                "always_down_accuracy_pct": null,
+                "always_neutral_accuracy_pct": null,
+                "always_up_accuracy_pct": null
+              },
+              "confusion_matrix": {
+                "DOWN": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "NEUTRAL": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "UP": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                }
+              },
+              "correct_count": 0,
+              "incorrect_count": 0,
+              "scored_count": 0
+            },
+            "nonoverlap_rule": "Sorted by issue time; include a call only when it starts at/after the prior included call's horizon endpoint.",
+            "rolling_calls": {
+              "accuracy_pct": null,
+              "benchmarks": {
+                "always_down_accuracy_pct": null,
+                "always_neutral_accuracy_pct": null,
+                "always_up_accuracy_pct": null
+              },
+              "confusion_matrix": {
+                "DOWN": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "NEUTRAL": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "UP": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                }
+              },
+              "correct_count": 0,
+              "incorrect_count": 0,
+              "scored_count": 0
+            },
+            "window_end": "2026-10-03T16:35:57.174012+00:00",
+            "window_start": "2026-09-26T16:35:57.174012+00:00"
+          },
+          "720": {
+            "candidate": {
+              "calibration_n": null,
+              "candidate_status": "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
+              "gate_reasons": [
+                "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
+                "UNCALIBRATED_RESEARCH_ONLY; NO_AUTOMATIC_PROMOTION"
+              ],
+              "observations": 0,
+              "promotion_eligible": false,
+              "test_n": null,
+              "train_n": null
+            },
+            "horizon_hours": 720,
+            "largest_misses": [],
+            "non_overlapping_calls": {
+              "accuracy_pct": null,
+              "benchmarks": {
+                "always_down_accuracy_pct": null,
+                "always_neutral_accuracy_pct": null,
+                "always_up_accuracy_pct": null
+              },
+              "confusion_matrix": {
+                "DOWN": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "NEUTRAL": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "UP": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                }
+              },
+              "correct_count": 0,
+              "incorrect_count": 0,
+              "scored_count": 0
+            },
+            "nonoverlap_rule": "Sorted by issue time; include a call only when it starts at/after the prior included call's horizon endpoint.",
+            "rolling_calls": {
+              "accuracy_pct": null,
+              "benchmarks": {
+                "always_down_accuracy_pct": null,
+                "always_neutral_accuracy_pct": null,
+                "always_up_accuracy_pct": null
+              },
+              "confusion_matrix": {
+                "DOWN": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "NEUTRAL": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                },
+                "UP": {
+                  "DOWN": 0,
+                  "NEUTRAL": 0,
+                  "UP": 0
+                }
+              },
+              "correct_count": 0,
+              "incorrect_count": 0,
+              "scored_count": 0
+            },
+            "window_end": "2026-10-03T16:35:57.174012+00:00",
+            "window_start": "2026-09-26T16:35:57.174012+00:00"
+          }
+        },
+        "window_end": "2026-10-03T16:35:57.174012+00:00",
+        "window_start": "2026-09-26T16:35:57.174012+00:00"
+      }
+    },
+    "promotion_policy": "NO_AUTOMATIC_PROMOTION",
+    "publication_status": "RESEARCH_ONLY",
+    "research_run_id": 216,
+    "review_sha256": "844e005c7a4ca529e92d3a20cf6ac688a82f16accf1efc9d04b3c2137d16f9eb",
+    "schema_version": "xrp_model_review_v1"
+  },
+  "post_outcome_reviews": [
+    {
+      "actual_direction": "DOWN",
+      "actual_return_pct": -1.793743,
+      "horizon_hours": 24,
+      "label": "24h",
+      "model_version": "M2-research-heuristic-v1",
+      "original_signal_score": 0.235759,
+      "outcome_timestamp": "2026-10-02T20:48:40.871492+00:00",
+      "post_outcome_directional_lean": "DOWN",
+      "post_outcome_generated_at": "2026-10-02T21:22:42.477990+00:00",
+      "post_outcome_research_run_id": 200,
+      "post_outcome_signal_score": -0.228442,
+      "predicted_direction": "UP",
+      "prediction_correct": false,
+      "prediction_issued_at": "2026-10-01T20:48:40.871492+00:00",
+      "review_lag_seconds": 2041.606,
+      "signal_score_delta": -0.464201
+    },
+    {
+      "actual_direction": "DOWN",
+      "actual_return_pct": -1.456621,
+      "horizon_hours": 24,
+      "label": "24h",
+      "model_version": "M2-research-heuristic-v1",
+      "original_signal_score": 0.08851,
+      "outcome_timestamp": "2026-10-02T21:12:09.056485+00:00",
+      "post_outcome_directional_lean": "DOWN",
+      "post_outcome_generated_at": "2026-10-02T21:22:42.477990+00:00",
+      "post_outcome_research_run_id": 200,
+      "post_outcome_signal_score": -0.228442,
+      "predicted_direction": "UP",
+      "prediction_correct": false,
+      "prediction_issued_at": "2026-10-01T21:12:09.056485+00:00",
+      "review_lag_seconds": 633.422,
+      "signal_score_delta": -0.316952
+    },
+    {
+      "actual_direction": "DOWN",
+      "actual_return_pct": -1.524715,
+      "horizon_hours": 24,
+      "label": "24h",
+      "model_version": "M2-research-heuristic-v1",
+      "original_signal_score": 0.066338,
+      "outcome_timestamp": "2026-10-02T21:27:58.317101+00:00",
+      "post_outcome_directional_lean": "DOWN",
+      "post_outcome_generated_at": "2026-10-02T22:23:02.003551+00:00",
+      "post_outcome_research_run_id": 201,
+      "post_outcome_signal_score": -0.215301,
+      "predicted_direction": "UP",
+      "prediction_correct": false,
+      "prediction_issued_at": "2026-10-01T21:27:58.317101+00:00",
+      "review_lag_seconds": 3303.686,
+      "signal_score_delta": -0.281639
+    },
+    {
+      "actual_direction": "DOWN",
+      "actual_return_pct": -1.343858,
+      "horizon_hours": 24,
+      "label": "24h",
+      "model_version": "M2-research-heuristic-v1",
+      "original_signal_score": 0.087733,
+      "outcome_timestamp": "2026-10-02T22:22:56.628933+00:00",
+      "post_outcome_directional_lean": "DOWN",
+      "post_outcome_generated_at": "2026-10-02T22:23:02.003551+00:00",
+      "post_outcome_research_run_id": 201,
+      "post_outcome_signal_score": -0.215301,
+      "predicted_direction": "UP",
+      "prediction_correct": false,
+      "prediction_issued_at": "2026-10-01T22:22:56.628933+00:00",
+      "review_lag_seconds": 5.375,
+      "signal_score_delta": -0.303034
+    },
+    {
+      "actual_direction": "DOWN",
+      "actual_return_pct": -1.153833,
+      "horizon_hours": 24,
+      "label": "24h",
+      "model_version": "M2-research-heuristic-v1",
+      "original_signal_score": 0.077845,
+      "outcome_timestamp": "2026-10-02T22:40:08.098522+00:00",
+      "post_outcome_directional_lean": "DOWN",
+      "post_outcome_generated_at": "2026-10-02T23:20:26.033052+00:00",
+      "post_outcome_research_run_id": 202,
+      "post_outcome_signal_score": -0.075762,
+      "predicted_direction": "UP",
+      "prediction_correct": false,
+      "prediction_issued_at": "2026-10-01T22:40:08.098522+00:00",
+      "review_lag_seconds": 2417.935,
+      "signal_score_delta": -0.153607
+    },
+    {
+      "actual_direction": "DOWN",
+      "actual_return_pct": -2.569265,
+      "horizon_hours": 24,
+      "label": "24h",
+      "model_version": "M2-research-heuristic-v1",
+      "original_signal_score": 0.276606,
+      "outcome_timestamp": "2026-10-03T06:39:59.878826+00:00",
+      "post_outcome_directional_lean": "DOWN",
+      "post_outcome_generated_at": "2026-10-03T07:28:46.877218+00:00",
+      "post_outcome_research_run_id": 209,
+      "post_outcome_signal_score": -0.162238,
+      "predicted_direction": "UP",
+      "prediction_correct": false,
+      "prediction_issued_at": "2026-10-02T06:39:59.878826+00:00",
+      "review_lag_seconds": 2926.998,
+      "signal_score_delta": -0.438844
+    },
+    {
+      "actual_direction": "DOWN",
+      "actual_return_pct": -2.48348,
+      "horizon_hours": 24,
+      "label": "24h",
+      "model_version": "M2-research-heuristic-v1",
+      "original_signal_score": 0.253495,
+      "outcome_timestamp": "2026-10-03T07:31:07.987123+00:00",
+      "post_outcome_directional_lean": "DOWN",
+      "post_outcome_generated_at": "2026-10-03T08:30:26.762148+00:00",
+      "post_outcome_research_run_id": 210,
+      "post_outcome_signal_score": -0.173193,
+      "predicted_direction": "UP",
+      "prediction_correct": false,
+      "prediction_issued_at": "2026-10-02T07:31:07.987123+00:00",
+      "review_lag_seconds": 3558.775,
+      "signal_score_delta": -0.426688
+    },
+    {
+      "actual_direction": "DOWN",
+      "actual_return_pct": -3.5175,
+      "horizon_hours": 24,
+      "label": "24h",
+      "model_version": "M2-research-heuristic-v1",
+      "original_signal_score": 0.445757,
+      "outcome_timestamp": "2026-10-03T08:32:57.610925+00:00",
+      "post_outcome_directional_lean": "DOWN",
+      "post_outcome_generated_at": "2026-10-03T09:25:00.347270+00:00",
+      "post_outcome_research_run_id": 211,
+      "post_outcome_signal_score": -0.145681,
+      "predicted_direction": "UP",
+      "prediction_correct": false,
+      "prediction_issued_at": "2026-10-02T08:32:57.610925+00:00",
+      "review_lag_seconds": 3122.736,
+      "signal_score_delta": -0.591438
+    },
+    {
+      "actual_direction": "DOWN",
+      "actual_return_pct": -3.52681,
+      "horizon_hours": 24,
+      "label": "24h",
+      "model_version": "M2-research-heuristic-v1",
+      "original_signal_score": 0.452728,
+      "outcome_timestamp": "2026-10-03T08:48:21.823014+00:00",
+      "post_outcome_directional_lean": "DOWN",
+      "post_outcome_generated_at": "2026-10-03T09:25:00.347270+00:00",
+      "post_outcome_research_run_id": 211,
+      "post_outcome_signal_score": -0.145681,
+      "predicted_direction": "UP",
+      "prediction_correct": false,
+      "prediction_issued_at": "2026-10-02T08:48:21.823014+00:00",
+      "review_lag_seconds": 2198.524,
+      "signal_score_delta": -0.598408
+    },
+    {
+      "actual_direction": "DOWN",
+      "actual_return_pct": -3.351468,
+      "horizon_hours": 24,
+      "label": "24h",
+      "model_version": "M2-research-heuristic-v1",
+      "original_signal_score": 0.334244,
+      "outcome_timestamp": "2026-10-03T09:08:31.027894+00:00",
+      "post_outcome_directional_lean": "DOWN",
+      "post_outcome_generated_at": "2026-10-03T09:25:00.347270+00:00",
+      "post_outcome_research_run_id": 211,
+      "post_outcome_signal_score": -0.145681,
+      "predicted_direction": "UP",
+      "prediction_correct": false,
+      "prediction_issued_at": "2026-10-02T09:08:31.027894+00:00",
+      "review_lag_seconds": 989.319,
+      "signal_score_delta": -0.479924
+    },
+    {
+      "actual_direction": "DOWN",
+      "actual_return_pct": -3.472797,
+      "horizon_hours": 24,
+      "label": "24h",
+      "model_version": "M2-research-heuristic-v1",
+      "original_signal_score": 0.341799,
+      "outcome_timestamp": "2026-10-03T09:27:40.509129+00:00",
+      "post_outcome_directional_lean": "DOWN",
+      "post_outcome_generated_at": "2026-10-03T10:21:24.590624+00:00",
+      "post_outcome_research_run_id": 212,
+      "post_outcome_signal_score": -0.138129,
+      "predicted_direction": "UP",
+      "prediction_correct": false,
+      "prediction_issued_at": "2026-10-02T09:27:40.509129+00:00",
+      "review_lag_seconds": 3224.081,
+      "signal_score_delta": -0.479928
+    },
+    {
+      "actual_direction": "DOWN",
+      "actual_return_pct": -3.600533,
+      "horizon_hours": 24,
+      "label": "24h",
+      "model_version": "M2-research-heuristic-v1",
+      "original_signal_score": 0.344563,
+      "outcome_timestamp": "2026-10-03T09:33:14.650747+00:00",
+      "post_outcome_directional_lean": "DOWN",
+      "post_outcome_generated_at": "2026-10-03T10:21:24.590624+00:00",
+      "post_outcome_research_run_id": 212,
+      "post_outcome_signal_score": -0.138129,
+      "predicted_direction": "UP",
+      "prediction_correct": false,
+      "prediction_issued_at": "2026-10-02T09:33:14.650747+00:00",
+      "review_lag_seconds": 2889.94,
+      "signal_score_delta": -0.482692
+    },
+    {
+      "actual_direction": "DOWN",
+      "actual_return_pct": -3.676027,
+      "horizon_hours": 24,
+      "label": "24h",
+      "model_version": "M2-research-heuristic-v1",
+      "original_signal_score": 0.358389,
+      "outcome_timestamp": "2026-10-03T09:58:17.017008+00:00",
+      "post_outcome_directional_lean": "DOWN",
+      "post_outcome_generated_at": "2026-10-03T10:21:24.590624+00:00",
+      "post_outcome_research_run_id": 212,
+      "post_outcome_signal_score": -0.138129,
+      "predicted_direction": "UP",
+      "prediction_correct": false,
+      "prediction_issued_at": "2026-10-02T09:58:17.017008+00:00",
+      "review_lag_seconds": 1387.574,
+      "signal_score_delta": -0.496518
+    },
+    {
+      "actual_direction": "DOWN",
+      "actual_return_pct": -3.667717,
+      "horizon_hours": 24,
+      "label": "24h",
+      "model_version": "M2-research-heuristic-v1",
+      "original_signal_score": 0.305265,
+      "outcome_timestamp": "2026-10-03T10:16:56.955163+00:00",
+      "post_outcome_directional_lean": "DOWN",
+      "post_outcome_generated_at": "2026-10-03T10:21:24.590624+00:00",
+      "post_outcome_research_run_id": 212,
+      "post_outcome_signal_score": -0.138129,
+      "predicted_direction": "UP",
+      "prediction_correct": false,
+      "prediction_issued_at": "2026-10-02T10:16:56.955163+00:00",
+      "review_lag_seconds": 267.635,
+      "signal_score_delta": -0.443394
+    },
+    {
+      "actual_direction": "DOWN",
+      "actual_return_pct": -3.450431,
+      "horizon_hours": 24,
+      "label": "24h",
+      "model_version": "M2-research-heuristic-v1",
+      "original_signal_score": 0.283799,
+      "outcome_timestamp": "2026-10-03T10:24:48.402558+00:00",
+      "post_outcome_directional_lean": "DOWN",
+      "post_outcome_generated_at": "2026-10-03T12:02:02.262403+00:00",
+      "post_outcome_research_run_id": 213,
+      "post_outcome_signal_score": -0.10028,
+      "predicted_direction": "UP",
+      "prediction_correct": false,
+      "prediction_issued_at": "2026-10-02T10:24:48.402558+00:00",
+      "review_lag_seconds": 5833.86,
+      "signal_score_delta": -0.384079
+    },
+    {
+      "actual_direction": "DOWN",
+      "actual_return_pct": -3.885274,
+      "horizon_hours": 24,
+      "label": "24h",
+      "model_version": "M2-research-heuristic-v1",
+      "original_signal_score": 0.357546,
+      "outcome_timestamp": "2026-10-03T12:36:36.308818+00:00",
+      "post_outcome_directional_lean": "DOWN",
+      "post_outcome_generated_at": "2026-10-03T13:54:15.077210+00:00",
+      "post_outcome_research_run_id": 214,
+      "post_outcome_signal_score": -0.111888,
+      "predicted_direction": "UP",
+      "prediction_correct": false,
+      "prediction_issued_at": "2026-10-02T12:36:36.308818+00:00",
+      "review_lag_seconds": 4658.768,
+      "signal_score_delta": -0.469434
+    },
+    {
+      "actual_direction": "DOWN",
+      "actual_return_pct": -3.665183,
+      "horizon_hours": 24,
+      "label": "24h",
+      "model_version": "M2-research-heuristic-v1",
+      "original_signal_score": 0.268665,
+      "outcome_timestamp": "2026-10-03T13:26:32.476011+00:00",
+      "post_outcome_directional_lean": "DOWN",
+      "post_outcome_generated_at": "2026-10-03T13:54:15.077210+00:00",
+      "post_outcome_research_run_id": 214,
+      "post_outcome_signal_score": -0.111888,
+      "predicted_direction": "UP",
+      "prediction_correct": false,
+      "prediction_issued_at": "2026-10-02T13:26:32.476011+00:00",
+      "review_lag_seconds": 1662.601,
+      "signal_score_delta": -0.380553
+    },
+    {
+      "actual_direction": "DOWN",
+      "actual_return_pct": -1.787448,
+      "horizon_hours": 24,
+      "label": "24h",
+      "model_version": "M2-research-heuristic-v1",
+      "original_signal_score": -0.037685,
+      "outcome_timestamp": "2026-10-03T15:15:57.587971+00:00",
+      "post_outcome_directional_lean": "NEUTRAL",
+      "post_outcome_generated_at": "2026-10-03T16:35:44.653822+00:00",
+      "post_outcome_research_run_id": 216,
+      "post_outcome_signal_score": 0.024349,
+      "predicted_direction": "NEUTRAL",
+      "prediction_correct": false,
+      "prediction_issued_at": "2026-10-02T15:15:57.587971+00:00",
+      "review_lag_seconds": 4787.066,
+      "signal_score_delta": 0.062034
+    },
+    {
+      "actual_direction": "DOWN",
+      "actual_return_pct": -1.241837,
+      "horizon_hours": 24,
+      "label": "24h",
+      "model_version": "M2-research-heuristic-v1",
+      "original_signal_score": -0.063172,
+      "outcome_timestamp": "2026-10-03T15:25:47.680496+00:00",
+      "post_outcome_directional_lean": "NEUTRAL",
+      "post_outcome_generated_at": "2026-10-03T16:35:44.653822+00:00",
+      "post_outcome_research_run_id": 216,
+      "post_outcome_signal_score": 0.024349,
+      "predicted_direction": "DOWN",
+      "prediction_correct": true,
+      "prediction_issued_at": "2026-10-02T15:25:47.680496+00:00",
+      "review_lag_seconds": 4196.973,
+      "signal_score_delta": 0.087521
+    },
+    {
+      "actual_direction": "DOWN",
+      "actual_return_pct": -1.163061,
+      "horizon_hours": 24,
+      "label": "24h",
+      "model_version": "M2-research-heuristic-v1",
+      "original_signal_score": -0.036214,
+      "outcome_timestamp": "2026-10-03T16:26:55.886274+00:00",
+      "post_outcome_directional_lean": "NEUTRAL",
+      "post_outcome_generated_at": "2026-10-03T16:35:44.653822+00:00",
+      "post_outcome_research_run_id": 216,
+      "post_outcome_signal_score": 0.024349,
+      "predicted_direction": "NEUTRAL",
+      "prediction_correct": false,
+      "prediction_issued_at": "2026-10-02T16:26:55.886274+00:00",
+      "review_lag_seconds": 528.768,
+      "signal_score_delta": 0.060563
+    }
+  ],
   "prediction_panel": {
     "168": {
       "candidate_observations": 0,
       "candidate_status": "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
-      "directional_lean": "DOWN",
-      "frozen_predictions": 43,
+      "directional_lean": "NEUTRAL",
+      "frozen_predictions": 91,
       "horizon_hours": 168,
-      "issued_at": "2026-10-01T12:37:35.505197+00:00",
+      "issued_at": "2026-10-03T16:36:01.160530+00:00",
       "label": "7d",
       "neutral_deadband": 0.05,
       "note": "Direction-only prospective research baseline; no probability, target, range or trade recommendation.",
       "publication_state": "EXPERIMENTAL_UNCALIBRATED",
       "scored_outcomes": 0,
-      "signal_score": -0.106112,
+      "signal_score": 0.024349,
       "validation_state": "AWAITING_MATURITY"
     },
     "24": {
-      "candidate_observations": 12,
+      "candidate_observations": 40,
       "candidate_status": "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
-      "directional_lean": "DOWN",
-      "frozen_predictions": 51,
+      "directional_lean": "NEUTRAL",
+      "frozen_predictions": 99,
       "horizon_hours": 24,
-      "issued_at": "2026-10-01T12:37:35.505197+00:00",
+      "issued_at": "2026-10-03T16:36:01.160530+00:00",
       "label": "24h",
       "neutral_deadband": 0.05,
       "note": "Direction-only prospective research baseline; no probability, target, range or trade recommendation.",
       "publication_state": "EXPERIMENTAL_UNCALIBRATED",
-      "scored_outcomes": 12,
-      "signal_score": -0.106112,
+      "scored_outcomes": 81,
+      "signal_score": 0.024349,
       "validation_state": "PROSPECTIVE_TRACK_RECORD_BUILDING"
     },
     "336": {
       "candidate_observations": 0,
       "candidate_status": "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
-      "directional_lean": "DOWN",
-      "frozen_predictions": 43,
+      "directional_lean": "NEUTRAL",
+      "frozen_predictions": 91,
       "horizon_hours": 336,
-      "issued_at": "2026-10-01T12:37:35.505197+00:00",
+      "issued_at": "2026-10-03T16:36:01.160530+00:00",
       "label": "14d",
       "neutral_deadband": 0.05,
       "note": "Direction-only prospective research baseline; no probability, target, range or trade recommendation.",
       "publication_state": "EXPERIMENTAL_UNCALIBRATED",
       "scored_outcomes": 0,
-      "signal_score": -0.106112,
+      "signal_score": 0.024349,
       "validation_state": "AWAITING_MATURITY"
     },
     "720": {
       "candidate_observations": 0,
       "candidate_status": "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
-      "directional_lean": "DOWN",
-      "frozen_predictions": 43,
+      "directional_lean": "NEUTRAL",
+      "frozen_predictions": 91,
       "horizon_hours": 720,
-      "issued_at": "2026-10-01T12:37:35.505197+00:00",
+      "issued_at": "2026-10-03T16:36:01.160530+00:00",
       "label": "30d",
       "neutral_deadband": 0.05,
       "note": "Direction-only prospective research baseline; no probability, target, range or trade recommendation.",
       "publication_state": "EXPERIMENTAL_UNCALIBRATED",
       "scored_outcomes": 0,
-      "signal_score": -0.106112,
+      "signal_score": 0.024349,
       "validation_state": "AWAITING_MATURITY"
     }
   },
@@ -4168,166 +6267,292 @@
       "wrong_count": 0
     },
     "24": {
-      "correct_count": 3,
-      "direction_accuracy_pct": 25.0,
+      "correct_count": 6,
+      "direction_accuracy_pct": 7.4074,
       "horizon_hours": 24,
       "label": "24h",
       "largest_directional_misses": [
+        {
+          "actual_direction": "UP",
+          "actual_return_pct": 4.101857,
+          "correct": false,
+          "cumulative_accuracy_pct": 12.1951,
+          "end_price": 1.54737,
+          "issued_at": "2026-10-01T10:39:43.583879+00:00",
+          "outcome_timestamp": "2026-10-02T10:39:43.583879+00:00",
+          "predicted_direction": "DOWN",
+          "signal_score": -0.196289,
+          "start_price": 1.4864
+        },
         {
           "actual_direction": "DOWN",
           "actual_return_pct": -3.939955,
           "correct": false,
           "cumulative_accuracy_pct": 0.0,
+          "end_price": 1.47822,
           "issued_at": "2026-09-30T13:27:04.485437+00:00",
           "outcome_timestamp": "2026-10-01T13:27:04.485437+00:00",
           "predicted_direction": "UP",
-          "signal_score": 0.158827
+          "signal_score": 0.158827,
+          "start_price": 1.53885
         },
         {
-          "actual_direction": "DOWN",
-          "actual_return_pct": -3.416266,
+          "actual_direction": "UP",
+          "actual_return_pct": 3.917644,
           "correct": false,
-          "cumulative_accuracy_pct": 0.0,
-          "issued_at": "2026-09-30T12:53:37.432544+00:00",
-          "outcome_timestamp": "2026-10-01T12:53:37.432544+00:00",
-          "predicted_direction": "UP",
-          "signal_score": 0.176339
-        },
-        {
-          "actual_direction": "DOWN",
-          "actual_return_pct": -2.045176,
-          "correct": false,
-          "cumulative_accuracy_pct": 30.0,
-          "issued_at": "2026-09-30T16:54:21.488799+00:00",
-          "outcome_timestamp": "2026-10-01T16:54:21.488799+00:00",
-          "predicted_direction": "UP",
-          "signal_score": 0.056172
+          "cumulative_accuracy_pct": 12.5,
+          "end_price": 1.54193,
+          "issued_at": "2026-10-01T10:30:52.479278+00:00",
+          "outcome_timestamp": "2026-10-02T10:30:52.479278+00:00",
+          "predicted_direction": "DOWN",
+          "signal_score": -0.207345,
+          "start_price": 1.4838
         }
       ],
       "recent_outcomes": [
         {
           "actual_direction": "DOWN",
-          "actual_return_pct": -3.416266,
+          "actual_return_pct": -0.677626,
           "correct": false,
-          "cumulative_accuracy_pct": 0.0,
-          "issued_at": "2026-09-30T12:53:37.432544+00:00",
-          "outcome_timestamp": "2026-10-01T12:53:37.432544+00:00",
-          "predicted_direction": "UP",
-          "signal_score": 0.176339
-        },
-        {
-          "actual_direction": "DOWN",
-          "actual_return_pct": -3.939955,
-          "correct": false,
-          "cumulative_accuracy_pct": 0.0,
-          "issued_at": "2026-09-30T13:27:04.485437+00:00",
-          "outcome_timestamp": "2026-10-01T13:27:04.485437+00:00",
-          "predicted_direction": "UP",
-          "signal_score": 0.158827
-        },
-        {
-          "actual_direction": "DOWN",
-          "actual_return_pct": -1.863899,
-          "correct": false,
-          "cumulative_accuracy_pct": 0.0,
-          "issued_at": "2026-09-30T13:59:28.732665+00:00",
-          "outcome_timestamp": "2026-10-01T13:59:28.732665+00:00",
+          "cumulative_accuracy_pct": 8.0645,
+          "end_price": 1.48333,
+          "issued_at": "2026-10-01T23:34:14.050940+00:00",
+          "outcome_timestamp": "2026-10-02T23:34:14.050940+00:00",
           "predicted_direction": "NEUTRAL",
-          "signal_score": 0.035099
+          "signal_score": -0.017443,
+          "start_price": 1.4934500000000002
         },
         {
           "actual_direction": "DOWN",
-          "actual_return_pct": -0.736663,
+          "actual_return_pct": -0.55747,
+          "correct": false,
+          "cumulative_accuracy_pct": 7.9365,
+          "end_price": 1.48592,
+          "issued_at": "2026-10-01T23:50:38.048912+00:00",
+          "outcome_timestamp": "2026-10-02T23:50:38.048912+00:00",
+          "predicted_direction": "NEUTRAL",
+          "signal_score": -0.011916,
+          "start_price": 1.49425
+        },
+        {
+          "actual_direction": "DOWN",
+          "actual_return_pct": -2.160439,
+          "correct": false,
+          "cumulative_accuracy_pct": 7.8125,
+          "end_price": 1.48858,
+          "issued_at": "2026-10-02T05:25:05.399681+00:00",
+          "outcome_timestamp": "2026-10-03T05:25:05.399681+00:00",
+          "predicted_direction": "UP",
+          "signal_score": 0.161456,
+          "start_price": 1.5214500000000002
+        },
+        {
+          "actual_direction": "DOWN",
+          "actual_return_pct": -2.569265,
+          "correct": false,
+          "cumulative_accuracy_pct": 7.6923,
+          "end_price": 1.48577,
+          "issued_at": "2026-10-02T06:39:59.878826+00:00",
+          "outcome_timestamp": "2026-10-03T06:39:59.878826+00:00",
+          "predicted_direction": "UP",
+          "signal_score": 0.276606,
+          "start_price": 1.52495
+        },
+        {
+          "actual_direction": "DOWN",
+          "actual_return_pct": -2.48348,
+          "correct": false,
+          "cumulative_accuracy_pct": 7.5758,
+          "end_price": 1.48308,
+          "issued_at": "2026-10-02T07:31:07.987123+00:00",
+          "outcome_timestamp": "2026-10-03T07:31:07.987123+00:00",
+          "predicted_direction": "UP",
+          "signal_score": 0.253495,
+          "start_price": 1.5208499999999998
+        },
+        {
+          "actual_direction": "DOWN",
+          "actual_return_pct": -3.5175,
+          "correct": false,
+          "cumulative_accuracy_pct": 7.4627,
+          "end_price": 1.48173,
+          "issued_at": "2026-10-02T08:32:57.610925+00:00",
+          "outcome_timestamp": "2026-10-03T08:32:57.610925+00:00",
+          "predicted_direction": "UP",
+          "signal_score": 0.445757,
+          "start_price": 1.5357500000000002
+        },
+        {
+          "actual_direction": "DOWN",
+          "actual_return_pct": -3.52681,
+          "correct": false,
+          "cumulative_accuracy_pct": 7.3529,
+          "end_price": 1.48342,
+          "issued_at": "2026-10-02T08:48:21.823014+00:00",
+          "outcome_timestamp": "2026-10-03T08:48:21.823014+00:00",
+          "predicted_direction": "UP",
+          "signal_score": 0.452728,
+          "start_price": 1.5376500000000002
+        },
+        {
+          "actual_direction": "DOWN",
+          "actual_return_pct": -3.351468,
+          "correct": false,
+          "cumulative_accuracy_pct": 7.2464,
+          "end_price": 1.48341,
+          "issued_at": "2026-10-02T09:08:31.027894+00:00",
+          "outcome_timestamp": "2026-10-03T09:08:31.027894+00:00",
+          "predicted_direction": "UP",
+          "signal_score": 0.334244,
+          "start_price": 1.53485
+        },
+        {
+          "actual_direction": "DOWN",
+          "actual_return_pct": -3.472797,
+          "correct": false,
+          "cumulative_accuracy_pct": 7.1429,
+          "end_price": 1.48232,
+          "issued_at": "2026-10-02T09:27:40.509129+00:00",
+          "outcome_timestamp": "2026-10-03T09:27:40.509129+00:00",
+          "predicted_direction": "UP",
+          "signal_score": 0.341799,
+          "start_price": 1.53565
+        },
+        {
+          "actual_direction": "DOWN",
+          "actual_return_pct": -3.600533,
+          "correct": false,
+          "cumulative_accuracy_pct": 7.0423,
+          "end_price": 1.48219,
+          "issued_at": "2026-10-02T09:33:14.650747+00:00",
+          "outcome_timestamp": "2026-10-03T09:33:14.650747+00:00",
+          "predicted_direction": "UP",
+          "signal_score": 0.344563,
+          "start_price": 1.53755
+        },
+        {
+          "actual_direction": "DOWN",
+          "actual_return_pct": -3.676027,
+          "correct": false,
+          "cumulative_accuracy_pct": 6.9444,
+          "end_price": 1.48363,
+          "issued_at": "2026-10-02T09:58:17.017008+00:00",
+          "outcome_timestamp": "2026-10-03T09:58:17.017008+00:00",
+          "predicted_direction": "UP",
+          "signal_score": 0.358389,
+          "start_price": 1.54025
+        },
+        {
+          "actual_direction": "DOWN",
+          "actual_return_pct": -3.667717,
+          "correct": false,
+          "cumulative_accuracy_pct": 6.8493,
+          "end_price": 1.48318,
+          "issued_at": "2026-10-02T10:16:56.955163+00:00",
+          "outcome_timestamp": "2026-10-03T10:16:56.955163+00:00",
+          "predicted_direction": "UP",
+          "signal_score": 0.305265,
+          "start_price": 1.53965
+        },
+        {
+          "actual_direction": "DOWN",
+          "actual_return_pct": -3.450431,
+          "correct": false,
+          "cumulative_accuracy_pct": 6.7568,
+          "end_price": 1.48276,
+          "issued_at": "2026-10-02T10:24:48.402558+00:00",
+          "outcome_timestamp": "2026-10-03T10:24:48.402558+00:00",
+          "predicted_direction": "UP",
+          "signal_score": 0.283799,
+          "start_price": 1.5357500000000002
+        },
+        {
+          "actual_direction": "DOWN",
+          "actual_return_pct": -3.885274,
+          "correct": false,
+          "cumulative_accuracy_pct": 6.6667,
+          "end_price": 1.48454,
+          "issued_at": "2026-10-02T12:36:36.308818+00:00",
+          "outcome_timestamp": "2026-10-03T12:36:36.308818+00:00",
+          "predicted_direction": "UP",
+          "signal_score": 0.357546,
+          "start_price": 1.54455
+        },
+        {
+          "actual_direction": "DOWN",
+          "actual_return_pct": -3.665183,
+          "correct": false,
+          "cumulative_accuracy_pct": 6.5789,
+          "end_price": 1.48293,
+          "issued_at": "2026-10-02T13:26:32.476011+00:00",
+          "outcome_timestamp": "2026-10-03T13:26:32.476011+00:00",
+          "predicted_direction": "UP",
+          "signal_score": 0.268665,
+          "start_price": 1.53935
+        },
+        {
+          "actual_direction": "DOWN",
+          "actual_return_pct": -3.159268,
+          "correct": false,
+          "cumulative_accuracy_pct": 6.4935,
+          "end_price": 1.48452,
+          "issued_at": "2026-10-02T14:24:37.259762+00:00",
+          "outcome_timestamp": "2026-10-03T14:24:37.259762+00:00",
+          "predicted_direction": "UP",
+          "signal_score": 0.150557,
+          "start_price": 1.53295
+        },
+        {
+          "actual_direction": "DOWN",
+          "actual_return_pct": -2.9967,
+          "correct": false,
+          "cumulative_accuracy_pct": 6.4103,
+          "end_price": 1.48449,
+          "issued_at": "2026-10-02T14:26:54.431796+00:00",
+          "outcome_timestamp": "2026-10-03T14:26:54.431796+00:00",
+          "predicted_direction": "UP",
+          "signal_score": 0.136378,
+          "start_price": 1.5303499999999999
+        },
+        {
+          "actual_direction": "DOWN",
+          "actual_return_pct": -1.787448,
+          "correct": false,
+          "cumulative_accuracy_pct": 6.3291,
+          "end_price": 1.48738,
+          "issued_at": "2026-10-02T15:15:57.587971+00:00",
+          "outcome_timestamp": "2026-10-03T15:15:57.587971+00:00",
+          "predicted_direction": "NEUTRAL",
+          "signal_score": -0.037685,
+          "start_price": 1.51445
+        },
+        {
+          "actual_direction": "DOWN",
+          "actual_return_pct": -1.241837,
           "correct": true,
-          "cumulative_accuracy_pct": 25.0,
-          "issued_at": "2026-09-30T14:27:46.765798+00:00",
-          "outcome_timestamp": "2026-10-01T14:27:46.765798+00:00",
+          "cumulative_accuracy_pct": 7.5,
+          "end_price": 1.48952,
+          "issued_at": "2026-10-02T15:25:47.680496+00:00",
+          "outcome_timestamp": "2026-10-03T15:25:47.680496+00:00",
           "predicted_direction": "DOWN",
-          "signal_score": -0.172621
+          "signal_score": -0.063172,
+          "start_price": 1.5082499999999999
         },
         {
           "actual_direction": "DOWN",
-          "actual_return_pct": -1.084,
-          "correct": true,
-          "cumulative_accuracy_pct": 40.0,
-          "issued_at": "2026-09-30T14:31:33.953181+00:00",
-          "outcome_timestamp": "2026-10-01T14:31:33.953181+00:00",
-          "predicted_direction": "DOWN",
-          "signal_score": -0.190176
-        },
-        {
-          "actual_direction": "DOWN",
-          "actual_return_pct": -0.92788,
-          "correct": true,
-          "cumulative_accuracy_pct": 50.0,
-          "issued_at": "2026-09-30T15:16:52.366558+00:00",
-          "outcome_timestamp": "2026-10-01T15:16:52.366558+00:00",
-          "predicted_direction": "DOWN",
-          "signal_score": -0.091333
-        },
-        {
-          "actual_direction": "NEUTRAL",
-          "actual_return_pct": -0.390858,
+          "actual_return_pct": -1.163061,
           "correct": false,
-          "cumulative_accuracy_pct": 42.8571,
-          "issued_at": "2026-09-30T15:28:57.961461+00:00",
-          "outcome_timestamp": "2026-10-01T15:28:57.961461+00:00",
-          "predicted_direction": "DOWN",
-          "signal_score": -0.145636
-        },
-        {
-          "actual_direction": "DOWN",
-          "actual_return_pct": -1.72993,
-          "correct": false,
-          "cumulative_accuracy_pct": 37.5,
-          "issued_at": "2026-09-30T16:28:35.609222+00:00",
-          "outcome_timestamp": "2026-10-01T16:28:35.609222+00:00",
-          "predicted_direction": "UP",
-          "signal_score": 0.06548
-        },
-        {
-          "actual_direction": "DOWN",
-          "actual_return_pct": -1.946035,
-          "correct": false,
-          "cumulative_accuracy_pct": 33.3333,
-          "issued_at": "2026-09-30T16:42:13.645959+00:00",
-          "outcome_timestamp": "2026-10-01T16:42:13.645959+00:00",
-          "predicted_direction": "UP",
-          "signal_score": 0.05167
-        },
-        {
-          "actual_direction": "DOWN",
-          "actual_return_pct": -2.045176,
-          "correct": false,
-          "cumulative_accuracy_pct": 30.0,
-          "issued_at": "2026-09-30T16:54:21.488799+00:00",
-          "outcome_timestamp": "2026-10-01T16:54:21.488799+00:00",
-          "predicted_direction": "UP",
-          "signal_score": 0.056172
-        },
-        {
-          "actual_direction": "DOWN",
-          "actual_return_pct": -1.510582,
-          "correct": false,
-          "cumulative_accuracy_pct": 27.2727,
-          "issued_at": "2026-09-30T17:05:57.601494+00:00",
-          "outcome_timestamp": "2026-10-01T17:05:57.601494+00:00",
-          "predicted_direction": "UP",
-          "signal_score": 0.059126
-        },
-        {
-          "actual_direction": "DOWN",
-          "actual_return_pct": -1.62793,
-          "correct": false,
-          "cumulative_accuracy_pct": 25.0,
-          "issued_at": "2026-09-30T17:08:14.952847+00:00",
-          "outcome_timestamp": "2026-10-01T17:08:14.952847+00:00",
-          "predicted_direction": "UP",
-          "signal_score": 0.067401
+          "cumulative_accuracy_pct": 7.4074,
+          "end_price": 1.48715,
+          "issued_at": "2026-10-02T16:26:55.886274+00:00",
+          "outcome_timestamp": "2026-10-03T16:26:55.886274+00:00",
+          "predicted_direction": "NEUTRAL",
+          "signal_score": -0.036214,
+          "start_price": 1.5046499999999998
         }
       ],
-      "scored_count": 12,
-      "wrong_count": 9
+      "scored_count": 81,
+      "wrong_count": 75
     },
     "336": {
       "correct_count": 0,
@@ -4350,70 +6575,70 @@
       "wrong_count": 0
     }
   },
-  "price": 1.4995500000000002,
+  "price": 1.4892,
   "price_alert_ux": {
-    "current_price": 1.49955,
+    "current_price": 1.4892,
     "fixed_levels": [
       {
-        "distance_pct": -33.3133,
-        "distance_usd": -0.49955,
+        "distance_pct": -32.8499,
+        "distance_usd": -0.4892,
         "label": "$1.00",
         "price": 1.0,
         "relation": "BELOW"
       },
       {
-        "distance_pct": -26.6447,
-        "distance_usd": -0.39955,
+        "distance_pct": -26.1348,
+        "distance_usd": -0.3892,
         "label": "$1.10",
         "price": 1.1,
         "relation": "BELOW"
       },
       {
-        "distance_pct": -19.976,
-        "distance_usd": -0.29955,
+        "distance_pct": -19.4198,
+        "distance_usd": -0.2892,
         "label": "$1.20",
         "price": 1.2,
         "relation": "BELOW"
       },
       {
-        "distance_pct": 0.03,
-        "distance_usd": 0.00045,
+        "distance_pct": 0.7252,
+        "distance_usd": 0.0108,
         "label": "$1.50",
         "price": 1.5,
         "relation": "ABOVE"
       },
       {
-        "distance_pct": 33.3733,
-        "distance_usd": 0.50045,
+        "distance_pct": 34.3003,
+        "distance_usd": 0.5108,
         "label": "$2.00",
         "price": 2.0,
         "relation": "ABOVE"
       },
       {
-        "distance_pct": 66.7167,
-        "distance_usd": 1.00045,
+        "distance_pct": 67.8754,
+        "distance_usd": 1.0108,
         "label": "$2.50",
         "price": 2.5,
         "relation": "ABOVE"
       },
       {
-        "distance_pct": 100.06,
-        "distance_usd": 1.50045,
+        "distance_pct": 101.4504,
+        "distance_usd": 1.5108,
         "label": "$3.00",
         "price": 3.0,
         "relation": "ABOVE"
       },
       {
-        "distance_pct": 166.7467,
-        "distance_usd": 2.50045,
+        "distance_pct": 168.6006,
+        "distance_usd": 2.5108,
         "label": "$4.00",
         "price": 4.0,
         "relation": "ABOVE"
       }
     ],
     "fixed_zone": {
-      "distance_to_zone_pct": -13.3073,
-      "distance_to_zone_usd": -0.19955,
+      "distance_to_zone_pct": -12.7048,
+      "distance_to_zone_usd": -0.1892,
       "label": "$1.28\u2013$1.30 watch area",
       "lower": 1.28,
       "position": "ABOVE",
@@ -4423,16 +6648,16 @@
     "rolling_windows": [
       {
         "high": {
-          "distance_pct": 0.5812,
-          "distance_usd": 0.008715,
-          "price": 1.508265,
+          "distance_pct": 1.038,
+          "distance_usd": 0.0154575,
+          "price": 1.5046575,
           "relation": "ABOVE"
         },
         "label": "24h observed range",
         "low": {
-          "distance_pct": -1.3071,
-          "distance_usd": -0.0196,
-          "price": 1.47995,
+          "distance_pct": -1.6519,
+          "distance_usd": -0.0246,
+          "price": 1.4646,
           "relation": "BELOW"
         },
         "observations": 25,
@@ -4442,16 +6667,16 @@
       },
       {
         "high": {
-          "distance_pct": 6.7597,
-          "distance_usd": 0.101365,
-          "price": 1.600915,
+          "distance_pct": 4.0408,
+          "distance_usd": 0.060175,
+          "price": 1.549375,
           "relation": "ABOVE"
         },
         "label": "7d observed range",
         "low": {
-          "distance_pct": -1.9406,
-          "distance_usd": -0.0291,
-          "price": 1.47045,
+          "distance_pct": -1.6519,
+          "distance_usd": -0.0246,
+          "price": 1.4646,
           "relation": "BELOW"
         },
         "observations": 169,
@@ -4462,16 +6687,16 @@
     ],
     "schema_version": "xrp_dashboard_price_alert_ux_v1"
   },
-  "price_observed_hour": "2026-10-01T17:00:00+00:00",
+  "price_observed_hour": "2026-10-03T16:00:00+00:00",
   "publication": "RESEARCH ONLY \u00b7 UNCALIBRATED",
   "publication_metadata": {
     "calibration_status": "UNCALIBRATED",
-    "run_id": 148,
+    "run_id": 216,
     "source": "frozen_research_capture",
     "status": "RESEARCH_ONLY"
   },
-  "research_run_id": 148,
+  "research_run_id": 216,
   "schema": "xrp-research-dashboard-v1",
-  "snapshot_sha256": "217dc275bf3cc3392976f5f0f2abc956764392b5dd0b8ffe08c2b0ffb2d5dbeb",
-  "status": "QUALIFIED_WITH_COVERAGE_WARNING"
+  "snapshot_sha256": "a5e09e14b31d5d9fff8f7a8a862dc07fb6308e5a9927541b857e9798fc94ef39",
+  "status": "RESEARCH_SIGNAL_ONLY"
 }
