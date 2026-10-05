@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-04T17:35:52.285770+00:00",
+  "captured_at": "2026-10-05T17:22:28.576405+00:00",
   "core_families_fresh": 9,
   "core_families_present": 10,
   "coverage": {
@@ -57,98 +57,98 @@
     "data_quality_score": 0.9,
     "drivers": [
       {
-        "contribution_delta_previous": -0.004358,
-        "name": "sentiment",
-        "previous_weighted_contribution": 0.047322,
-        "signal": 0.53705,
-        "weight": 0.08,
-        "weighted_contribution": 0.042964
-      },
-      {
-        "contribution_delta_previous": 0.057598,
-        "name": "market_breadth",
-        "previous_weighted_contribution": -0.031607,
-        "signal": 0.216589,
-        "weight": 0.12,
-        "weighted_contribution": 0.025991
-      },
-      {
-        "contribution_delta_previous": -0.020955,
-        "name": "price_momentum_1h",
-        "previous_weighted_contribution": 0.00235,
-        "signal": -0.18605,
-        "weight": 0.1,
-        "weighted_contribution": -0.018605
-      },
-      {
-        "contribution_delta_previous": 0.040962,
-        "name": "price_momentum_24h",
-        "previous_weighted_contribution": -0.028097,
-        "signal": 0.058476,
-        "weight": 0.22,
-        "weighted_contribution": 0.012865
-      },
-      {
-        "contribution_delta_previous": -0.016719,
+        "contribution_delta_previous": -0.090791,
         "name": "price_momentum_6h",
-        "previous_weighted_contribution": 0.025122,
-        "signal": 0.046681,
+        "previous_weighted_contribution": 0.008403,
+        "signal": -0.457712,
         "weight": 0.18,
-        "weighted_contribution": 0.008403
+        "weighted_contribution": -0.082388
+      },
+      {
+        "contribution_delta_previous": 0.010159,
+        "name": "sentiment",
+        "previous_weighted_contribution": 0.042964,
+        "signal": 0.664037,
+        "weight": 0.08,
+        "weighted_contribution": 0.053123
+      },
+      {
+        "contribution_delta_previous": -0.054997,
+        "name": "market_breadth",
+        "previous_weighted_contribution": 0.025991,
+        "signal": -0.241715,
+        "weight": 0.12,
+        "weighted_contribution": -0.029006
+      },
+      {
+        "contribution_delta_previous": -0.030233,
+        "name": "xrp_eth_6h",
+        "previous_weighted_contribution": 0.004277,
+        "signal": -0.346085,
+        "weight": 0.075,
+        "weighted_contribution": -0.025956
+      },
+      {
+        "contribution_delta_previous": 0.036834,
+        "name": "price_momentum_1h",
+        "previous_weighted_contribution": -0.018605,
+        "signal": 0.182293,
+        "weight": 0.1,
+        "weighted_contribution": 0.018229
       },
       {
         "contribution_delta_previous": null,
-        "name": "open_interest_change_confirm",
+        "name": "xrp_btc_6h",
         "previous_weighted_contribution": null,
-        "signal": 0.062963,
-        "weight": 0.07,
-        "weighted_contribution": 0.004407
-      },
-      {
-        "contribution_delta_previous": -0.00382,
-        "name": "xrp_eth_6h",
-        "previous_weighted_contribution": 0.008097,
-        "signal": 0.057031,
+        "signal": -0.240004,
         "weight": 0.075,
-        "weighted_contribution": 0.004277
+        "weighted_contribution": -0.018
       },
       {
-        "contribution_delta_previous": -0.0,
-        "name": "funding_positioning",
-        "previous_weighted_contribution": -0.003994,
-        "signal": -0.066568,
-        "weight": 0.06,
-        "weighted_contribution": -0.003994
+        "contribution_delta_previous": -0.024217,
+        "name": "price_momentum_24h",
+        "previous_weighted_contribution": 0.012865,
+        "signal": -0.051598,
+        "weight": 0.22,
+        "weighted_contribution": -0.011352
+      },
+      {
+        "contribution_delta_previous": -0.013088,
+        "name": "open_interest_change_confirm",
+        "previous_weighted_contribution": 0.004407,
+        "signal": -0.124018,
+        "weight": 0.07,
+        "weighted_contribution": -0.008681
       }
     ],
     "metrics": {
-      "breadth_ratio": 1.5529377545084353,
-      "btc_dominance": 57.75472519030084,
+      "breadth_ratio": 0.610675936123348,
+      "btc_dominance": 57.52000976671687,
       "exchange_netflow_24h": null,
-      "fear_greed": 65.0,
+      "fear_greed": 70.0,
       "funding_rate": 0.0001,
-      "open_interest": 173451837.0,
-      "return_1h_pct": -0.1882,
-      "return_24h_pct": 0.4683,
-      "return_6h_pct": 0.1401,
-      "social_mentions": 40.0,
-      "xrp_btc_6h_pct": 0.0057,
-      "xrp_eth_6h_pct": 0.1713
+      "open_interest": 171520143.0,
+      "return_1h_pct": 0.1844,
+      "return_24h_pct": -0.4132,
+      "return_6h_pct": -1.4832,
+      "social_mentions": 58.5,
+      "xrp_btc_6h_pct": -0.7343,
+      "xrp_eth_6h_pct": -1.083
     },
-    "model_score": 0.07801,
+    "model_score": -0.11023,
     "model_version": "M2-research-heuristic-v1",
-    "posture": "BULLISH",
-    "price_change_24h_pct": 0.4683,
-    "price_change_7d_pct": -1.5629,
-    "score_delta_previous": 0.053661,
+    "posture": "BEARISH",
+    "price_change_24h_pct": -0.4132,
+    "price_change_7d_pct": -0.8097,
+    "score_delta_previous": -0.18824,
     "top_negative_drivers": [
-      "price_momentum_1h",
-      "funding_positioning"
+      "price_momentum_6h",
+      "market_breadth",
+      "xrp_eth_6h"
     ],
     "top_positive_drivers": [
       "sentiment",
-      "market_breadth",
-      "price_momentum_24h"
+      "price_momentum_1h"
     ],
     "warnings": [
       "Core research coverage is not fully fresh; forecast remains an uncalibrated research estimate.",
@@ -163,129 +163,9 @@
     "note": "Frozen prospective direction-only research prediction; no probability, price target, range, trade recommendation or production approval.",
     "signal_score": 0.103282,
     "status": "EXPERIMENTAL_UNCALIBRATED",
-    "validated_outcomes": 99
+    "validated_outcomes": 100
   },
   "history": [
-    {
-      "price": 1.394105,
-      "sources": 2,
-      "time": "2026-09-04T17:00:00+00:00"
-    },
-    {
-      "price": 1.399105,
-      "sources": 2,
-      "time": "2026-09-04T18:00:00+00:00"
-    },
-    {
-      "price": 1.399485,
-      "sources": 2,
-      "time": "2026-09-04T19:00:00+00:00"
-    },
-    {
-      "price": 1.400135,
-      "sources": 2,
-      "time": "2026-09-04T20:00:00+00:00"
-    },
-    {
-      "price": 1.39643,
-      "sources": 2,
-      "time": "2026-09-04T21:00:00+00:00"
-    },
-    {
-      "price": 1.395755,
-      "sources": 2,
-      "time": "2026-09-04T22:00:00+00:00"
-    },
-    {
-      "price": 1.39873,
-      "sources": 2,
-      "time": "2026-09-04T23:00:00+00:00"
-    },
-    {
-      "price": 1.39557,
-      "sources": 2,
-      "time": "2026-09-05T00:00:00+00:00"
-    },
-    {
-      "price": 1.396655,
-      "sources": 2,
-      "time": "2026-09-05T01:00:00+00:00"
-    },
-    {
-      "price": 1.39864,
-      "sources": 2,
-      "time": "2026-09-05T02:00:00+00:00"
-    },
-    {
-      "price": 1.397565,
-      "sources": 2,
-      "time": "2026-09-05T03:00:00+00:00"
-    },
-    {
-      "price": 1.39818,
-      "sources": 2,
-      "time": "2026-09-05T04:00:00+00:00"
-    },
-    {
-      "price": 1.39927,
-      "sources": 2,
-      "time": "2026-09-05T05:00:00+00:00"
-    },
-    {
-      "price": 1.403485,
-      "sources": 2,
-      "time": "2026-09-05T06:00:00+00:00"
-    },
-    {
-      "price": 1.40475,
-      "sources": 2,
-      "time": "2026-09-05T07:00:00+00:00"
-    },
-    {
-      "price": 1.40634,
-      "sources": 2,
-      "time": "2026-09-05T08:00:00+00:00"
-    },
-    {
-      "price": 1.40738,
-      "sources": 2,
-      "time": "2026-09-05T09:00:00+00:00"
-    },
-    {
-      "price": 1.40514,
-      "sources": 2,
-      "time": "2026-09-05T10:00:00+00:00"
-    },
-    {
-      "price": 1.404285,
-      "sources": 2,
-      "time": "2026-09-05T11:00:00+00:00"
-    },
-    {
-      "price": 1.4148,
-      "sources": 2,
-      "time": "2026-09-05T12:00:00+00:00"
-    },
-    {
-      "price": 1.412465,
-      "sources": 2,
-      "time": "2026-09-05T13:00:00+00:00"
-    },
-    {
-      "price": 1.41467,
-      "sources": 2,
-      "time": "2026-09-05T14:00:00+00:00"
-    },
-    {
-      "price": 1.412495,
-      "sources": 2,
-      "time": "2026-09-05T15:00:00+00:00"
-    },
-    {
-      "price": 1.41549,
-      "sources": 2,
-      "time": "2026-09-05T16:00:00+00:00"
-    },
     {
       "price": 1.42649,
       "sources": 2,
@@ -3767,19 +3647,139 @@
       "time": "2026-10-04T16:00:00+00:00"
     },
     {
-      "price": 1.50055,
-      "sources": 4,
+      "price": 1.50065,
+      "sources": 6,
       "time": "2026-10-04T17:00:00+00:00"
+    },
+    {
+      "price": 1.50229,
+      "sources": 2,
+      "time": "2026-10-04T18:00:00+00:00"
+    },
+    {
+      "price": 1.5053,
+      "sources": 6,
+      "time": "2026-10-04T19:00:00+00:00"
+    },
+    {
+      "price": 1.505685,
+      "sources": 2,
+      "time": "2026-10-04T20:00:00+00:00"
+    },
+    {
+      "price": 1.5119725,
+      "sources": 6,
+      "time": "2026-10-04T21:00:00+00:00"
+    },
+    {
+      "price": 1.52175,
+      "sources": 6,
+      "time": "2026-10-04T22:00:00+00:00"
+    },
+    {
+      "price": 1.5212275,
+      "sources": 6,
+      "time": "2026-10-04T23:00:00+00:00"
+    },
+    {
+      "price": 1.522775,
+      "sources": 2,
+      "time": "2026-10-05T00:00:00+00:00"
+    },
+    {
+      "price": 1.52305,
+      "sources": 6,
+      "time": "2026-10-05T01:00:00+00:00"
+    },
+    {
+      "price": 1.5244975,
+      "sources": 6,
+      "time": "2026-10-05T02:00:00+00:00"
+    },
+    {
+      "price": 1.5163475,
+      "sources": 6,
+      "time": "2026-10-05T03:00:00+00:00"
+    },
+    {
+      "price": 1.5017,
+      "sources": 6,
+      "time": "2026-10-05T04:00:00+00:00"
+    },
+    {
+      "price": 1.50365,
+      "sources": 6,
+      "time": "2026-10-05T05:00:00+00:00"
+    },
+    {
+      "price": 1.518675,
+      "sources": 6,
+      "time": "2026-10-05T06:00:00+00:00"
+    },
+    {
+      "price": 1.5247175,
+      "sources": 6,
+      "time": "2026-10-05T07:00:00+00:00"
+    },
+    {
+      "price": 1.51802,
+      "sources": 6,
+      "time": "2026-10-05T08:00:00+00:00"
+    },
+    {
+      "price": 1.5125425,
+      "sources": 6,
+      "time": "2026-10-05T09:00:00+00:00"
+    },
+    {
+      "price": 1.5182,
+      "sources": 6,
+      "time": "2026-10-05T10:00:00+00:00"
+    },
+    {
+      "price": 1.51695,
+      "sources": 6,
+      "time": "2026-10-05T11:00:00+00:00"
+    },
+    {
+      "price": 1.509125,
+      "sources": 6,
+      "time": "2026-10-05T12:00:00+00:00"
+    },
+    {
+      "price": 1.51055,
+      "sources": 6,
+      "time": "2026-10-05T13:00:00+00:00"
+    },
+    {
+      "price": 1.5092725,
+      "sources": 6,
+      "time": "2026-10-05T14:00:00+00:00"
+    },
+    {
+      "price": 1.4986625,
+      "sources": 6,
+      "time": "2026-10-05T15:00:00+00:00"
+    },
+    {
+      "price": 1.4917,
+      "sources": 2,
+      "time": "2026-10-05T16:00:00+00:00"
+    },
+    {
+      "price": 1.49445,
+      "sources": 4,
+      "time": "2026-10-05T17:00:00+00:00"
     }
   ],
   "history_audit": {
     "aligned_diagnostic_buckets": 15,
-    "imported_price_rows_available_at_cutoff": 1961,
+    "imported_price_rows_available_at_cutoff": 2009,
     "price_rows_with_missing_or_invalid_retrieval_provenance": 135
   },
   "horizons": {
     "14d": {
-      "history_observations": 1121,
+      "history_observations": 1145,
       "readiness": {
         "blockers": [
           "INCOMPLETE_CORE_INPUT_COVERAGE",
@@ -3797,7 +3797,7 @@
       "status": "PENDING_VALIDATION"
     },
     "1d": {
-      "history_observations": 1121,
+      "history_observations": 1145,
       "readiness": {
         "blockers": [
           "INCOMPLETE_CORE_INPUT_COVERAGE",
@@ -3814,7 +3814,7 @@
       "status": "PENDING_VALIDATION"
     },
     "30d": {
-      "history_observations": 1121,
+      "history_observations": 1145,
       "readiness": {
         "blockers": [
           "INCOMPLETE_CORE_INPUT_COVERAGE",
@@ -3832,7 +3832,7 @@
       "status": "PENDING_VALIDATION"
     },
     "7d": {
-      "history_observations": 1121,
+      "history_observations": 1145,
       "readiness": {
         "blockers": [
           "INCOMPLETE_CORE_INPUT_COVERAGE",
@@ -3850,27 +3850,27 @@
       "status": "PENDING_VALIDATION"
     }
   },
-  "input_cutoff": "2026-10-04T17:35:47.659383+00:00",
+  "input_cutoff": "2026-10-05T17:22:25.001449+00:00",
   "learning": {
-    "generated_at": "2026-10-04T17:36:07.548847+00:00",
+    "generated_at": "2026-10-05T17:22:48.373465+00:00",
     "horizons": {
       "1": {
         "candidate_observations": 0,
         "candidate_status": "EVALUATED_RESEARCH_ONLY",
         "mature_endpoint_gaps": 1,
-        "outcomes_persisted": 164,
-        "private_prediction_outcomes_persisted": 11,
-        "private_predictions_persisted": 17,
-        "snapshots_matured": 165
+        "outcomes_persisted": 186,
+        "private_prediction_outcomes_persisted": 30,
+        "private_predictions_persisted": 39,
+        "snapshots_matured": 187
       },
       "12": {
-        "candidate_observations": 63,
-        "candidate_status": "WITHHELD_INSUFFICIENT_EMBARGOED_TRAINING",
+        "candidate_observations": 75,
+        "candidate_status": "WITHHELD_INSUFFICIENT_CALIBRATION_DATA",
         "mature_endpoint_gaps": 0,
-        "outcomes_persisted": 160,
+        "outcomes_persisted": 176,
         "private_prediction_outcomes_persisted": 0,
         "private_predictions_persisted": 0,
-        "snapshots_matured": 160
+        "snapshots_matured": 176
       },
       "168": {
         "candidate_observations": 0,
@@ -3882,13 +3882,13 @@
         "snapshots_matured": 0
       },
       "24": {
-        "candidate_observations": 56,
+        "candidate_observations": 68,
         "candidate_status": "WITHHELD_INSUFFICIENT_EMBARGOED_TRAINING",
         "mature_endpoint_gaps": 0,
-        "outcomes_persisted": 152,
+        "outcomes_persisted": 165,
         "private_prediction_outcomes_persisted": 0,
         "private_predictions_persisted": 0,
-        "snapshots_matured": 152
+        "snapshots_matured": 165
       },
       "336": {
         "candidate_observations": 0,
@@ -3903,10 +3903,10 @@
         "candidate_observations": 0,
         "candidate_status": "EVALUATED_RESEARCH_ONLY",
         "mature_endpoint_gaps": 0,
-        "outcomes_persisted": 163,
-        "private_prediction_outcomes_persisted": 4,
-        "private_predictions_persisted": 9,
-        "snapshots_matured": 163
+        "outcomes_persisted": 184,
+        "private_prediction_outcomes_persisted": 22,
+        "private_predictions_persisted": 31,
+        "snapshots_matured": 184
       },
       "720": {
         "candidate_observations": 0,
@@ -3918,115 +3918,115 @@
         "snapshots_matured": 0
       }
     },
-    "mature_feature_outcome_count": 639,
-    "prospective_prediction_count": 26,
-    "snapshot_count": 166,
-    "weekly_direction_errors": 1,
-    "weekly_scored_count": 15
+    "mature_feature_outcome_count": 711,
+    "prospective_prediction_count": 70,
+    "snapshot_count": 188,
+    "weekly_direction_errors": 18,
+    "weekly_scored_count": 52
   },
   "market_brief": {
     "current_market": {
-      "price": 1.50055,
-      "price_observed_hour": "2026-10-04T17:00:00+00:00",
-      "return_24h_pct": 0.4683,
-      "return_7d_pct": -1.5629
+      "price": 1.49445,
+      "price_observed_hour": "2026-10-05T17:00:00+00:00",
+      "return_24h_pct": -0.4132,
+      "return_7d_pct": -0.8097
     },
     "factor_changes": [
       {
-        "change_24h": null,
-        "change_7d": null,
+        "change_24h": -0.3756,
+        "change_7d": -2.4029,
         "change_kind": "PCT",
-        "current": 1.757e-05,
-        "daily_status": "WITHHELD_NO_EXACT_COMPARISON",
+        "current": 1.751e-05,
+        "daily_status": "AVAILABLE",
         "label": "XRP/BTC",
         "metric": "xrp_btc",
-        "observed_hour": "2026-10-04T17:00:00+00:00",
+        "observed_hour": "2026-10-05T17:00:00+00:00",
         "unit": "BTC",
-        "weekly_status": "WITHHELD_NO_EXACT_COMPARISON"
+        "weekly_status": "AVAILABLE"
       },
       {
-        "change_24h": null,
-        "change_7d": null,
+        "change_24h": -0.54,
+        "change_7d": -0.814,
         "change_kind": "PCT",
-        "current": 0.0005556,
-        "daily_status": "WITHHELD_NO_EXACT_COMPARISON",
+        "current": 0.0005526,
+        "daily_status": "AVAILABLE",
         "label": "XRP/ETH",
         "metric": "xrp_eth",
-        "observed_hour": "2026-10-04T17:00:00+00:00",
+        "observed_hour": "2026-10-05T17:00:00+00:00",
         "unit": "ETH",
-        "weekly_status": "WITHHELD_NO_EXACT_COMPARISON"
+        "weekly_status": "AVAILABLE"
       },
       {
-        "change_24h": null,
-        "change_7d": null,
+        "change_24h": -0.942262,
+        "change_7d": 0.282163,
         "change_kind": "DELTA",
-        "current": 1.55293775,
-        "daily_status": "WITHHELD_NO_EXACT_COMPARISON",
+        "current": 0.61067594,
+        "daily_status": "AVAILABLE",
         "label": "Market breadth",
         "metric": "crypto_market_breadth",
-        "observed_hour": "2026-10-04T17:00:00+00:00",
+        "observed_hour": "2026-10-05T17:00:00+00:00",
         "unit": "advancers_to_decliners",
-        "weekly_status": "WITHHELD_NO_EXACT_COMPARISON"
+        "weekly_status": "AVAILABLE"
       },
       {
-        "change_24h": null,
+        "change_24h": -1.1137,
         "change_7d": null,
         "change_kind": "PCT",
-        "current": 173451837.0,
-        "daily_status": "WITHHELD_NO_EXACT_COMPARISON",
+        "current": 171520143.0,
+        "daily_status": "AVAILABLE",
         "label": "Open interest",
         "metric": "open_interest",
-        "observed_hour": "2026-10-04T17:00:00+00:00",
+        "observed_hour": "2026-10-05T17:00:00+00:00",
         "unit": "XRP",
         "weekly_status": "WITHHELD_NO_EXACT_COMPARISON"
       },
       {
-        "change_24h": null,
+        "change_24h": 0.0,
         "change_7d": null,
         "change_kind": "DELTA",
         "current": 0.01,
-        "daily_status": "WITHHELD_NO_EXACT_COMPARISON",
+        "daily_status": "AVAILABLE",
         "label": "Funding rate",
         "metric": "funding_rate",
-        "observed_hour": "2026-10-04T17:00:00+00:00",
+        "observed_hour": "2026-10-05T17:00:00+00:00",
         "unit": "%",
         "weekly_status": "WITHHELD_NO_EXACT_COMPARISON"
       },
       {
-        "change_24h": -2.0,
-        "change_7d": null,
+        "change_24h": 5.0,
+        "change_7d": -4.0,
         "change_kind": "DELTA",
-        "current": 65.0,
+        "current": 70.0,
         "daily_status": "AVAILABLE",
         "label": "Fear & Greed",
         "metric": "fear_greed",
-        "observed_hour": "2026-10-04T00:00:00+00:00",
+        "observed_hour": "2026-10-05T00:00:00+00:00",
         "unit": "index",
-        "weekly_status": "WITHHELD_NO_EXACT_COMPARISON"
+        "weekly_status": "AVAILABLE"
       },
       {
-        "change_24h": -49.3671,
-        "change_7d": null,
+        "change_24h": 46.25,
+        "change_7d": 95.0,
         "change_kind": "PCT",
-        "current": 40.0,
+        "current": 58.5,
         "daily_status": "AVAILABLE",
         "label": "Social attention",
         "metric": "social_mentions",
-        "observed_hour": "2026-10-04T17:00:00+00:00",
+        "observed_hour": "2026-10-05T17:00:00+00:00",
         "unit": "count",
-        "weekly_status": "WITHHELD_NO_EXACT_COMPARISON"
+        "weekly_status": "AVAILABLE"
       },
       {
-        "change_24h": null,
-        "change_7d": null,
+        "change_24h": -0.234715,
+        "change_7d": 0.403751,
         "change_kind": "DELTA",
-        "current": 57.75472519,
-        "daily_status": "WITHHELD_NO_EXACT_COMPARISON",
+        "current": 57.52000977,
+        "daily_status": "AVAILABLE",
         "label": "BTC dominance",
         "metric": "btc_dominance",
-        "observed_hour": "2026-10-04T17:00:00+00:00",
+        "observed_hour": "2026-10-05T17:00:00+00:00",
         "unit": "%",
-        "weekly_status": "WITHHELD_NO_EXACT_COMPARISON"
+        "weekly_status": "AVAILABLE"
       }
     ],
     "limitations": [
@@ -4036,48 +4036,48 @@
     ],
     "model_attribution": {
       "mixed_evidence": true,
-      "model_score": 0.07801,
+      "model_score": -0.11023,
       "note": "Model attribution identifies measured inputs associated with the current model score. It does not establish that those inputs caused the observed XRP price move.",
       "opposing_drivers": [
         {
-          "contribution_delta_previous": -0.020955,
-          "name": "price_momentum_1h",
-          "signal": -0.18605,
-          "weighted_contribution": -0.018605
+          "contribution_delta_previous": -0.090791,
+          "name": "price_momentum_6h",
+          "signal": -0.457712,
+          "weighted_contribution": -0.082388
         },
         {
-          "contribution_delta_previous": -0.0,
-          "name": "funding_positioning",
-          "signal": -0.066568,
-          "weighted_contribution": -0.003994
+          "contribution_delta_previous": -0.054997,
+          "name": "market_breadth",
+          "signal": -0.241715,
+          "weighted_contribution": -0.029006
+        },
+        {
+          "contribution_delta_previous": -0.030233,
+          "name": "xrp_eth_6h",
+          "signal": -0.346085,
+          "weighted_contribution": -0.025956
+        },
+        {
+          "contribution_delta_previous": null,
+          "name": "xrp_btc_6h",
+          "signal": -0.240004,
+          "weighted_contribution": -0.018
         }
       ],
-      "posture": "BULLISH",
-      "score_delta_previous": 0.053661,
+      "posture": "BEARISH",
+      "score_delta_previous": -0.18824,
       "supporting_drivers": [
         {
-          "contribution_delta_previous": -0.004358,
+          "contribution_delta_previous": 0.010159,
           "name": "sentiment",
-          "signal": 0.53705,
-          "weighted_contribution": 0.042964
+          "signal": 0.664037,
+          "weighted_contribution": 0.053123
         },
         {
-          "contribution_delta_previous": 0.057598,
-          "name": "market_breadth",
-          "signal": 0.216589,
-          "weighted_contribution": 0.025991
-        },
-        {
-          "contribution_delta_previous": 0.040962,
-          "name": "price_momentum_24h",
-          "signal": 0.058476,
-          "weighted_contribution": 0.012865
-        },
-        {
-          "contribution_delta_previous": -0.016719,
-          "name": "price_momentum_6h",
-          "signal": 0.046681,
-          "weighted_contribution": 0.008403
+          "contribution_delta_previous": 0.036834,
+          "name": "price_momentum_1h",
+          "signal": 0.182293,
+          "weighted_contribution": 0.018229
         }
       ]
     },
@@ -4087,9 +4087,9 @@
     "schema_version": "xrp_dashboard_market_brief_v1"
   },
   "model_review": {
-    "as_of": "2026-10-04T17:36:07.548847+00:00",
+    "as_of": "2026-10-05T17:22:48.373465+00:00",
     "association_only_note": "Frozen feature values are point-in-time associations; no causal events are inferred.",
-    "generated_at": "2026-10-04T17:36:07.548847+00:00",
+    "generated_at": "2026-10-05T17:22:48.373465+00:00",
     "method": "Descriptive exact 3-class accuracy; no fitting, pooling, or automatic promotion.",
     "not_model2_production": true,
     "periods": {
@@ -4167,8 +4167,8 @@
               "incorrect_count": 0,
               "scored_count": 0
             },
-            "window_end": "2026-10-04T17:36:07.548847+00:00",
-            "window_start": "2026-10-03T17:36:07.548847+00:00"
+            "window_end": "2026-10-05T17:22:48.373465+00:00",
+            "window_start": "2026-10-04T17:22:48.373465+00:00"
           },
           "24": {
             "candidate": {
@@ -4178,583 +4178,24 @@
                 "WITHHELD_INSUFFICIENT_EMBARGOED_TRAINING",
                 "UNCALIBRATED_RESEARCH_ONLY; NO_AUTOMATIC_PROMOTION"
               ],
-              "observations": 56,
+              "observations": 68,
               "promotion_eligible": false,
               "test_n": null,
               "train_n": null
             },
             "horizon_hours": 24,
-            "largest_misses": [
-              {
-                "actual_direction": "UP",
-                "actual_return_pct": 1.541771,
-                "feature_associations": [
-                  {
-                    "feature": "xrp_usd_price",
-                    "independence_group": "BITGET",
-                    "missing": false,
-                    "observed_at": "2026-10-02T19:21:47.200000+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-02T19:21:47.276210+00:00",
-                    "source_registry_id": "51",
-                    "unit": "USD",
-                    "value": 1.46455
-                  },
-                  {
-                    "feature": "open_interest",
-                    "independence_group": "BITGET",
-                    "missing": false,
-                    "observed_at": "2026-10-02T19:21:49.043000+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-02T19:21:49.129355+00:00",
-                    "source_registry_id": "51",
-                    "unit": "XRP",
-                    "value": 165732884.0
-                  },
-                  {
-                    "feature": "funding_rate",
-                    "independence_group": "BITGET",
-                    "missing": false,
-                    "observed_at": "2026-10-02T19:21:49.043000+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-02T19:21:49.129355+00:00",
-                    "source_registry_id": "51",
-                    "unit": "rate",
-                    "value": 0.0001
-                  },
-                  {
-                    "feature": "fear_greed",
-                    "independence_group": "ALTERNATIVE_ME",
-                    "missing": false,
-                    "observed_at": "2026-10-02T00:00:00+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-02T19:21:47.094856+00:00",
-                    "source_registry_id": "58",
-                    "unit": "index",
-                    "value": 72.0
-                  },
-                  {
-                    "feature": "basis_bps",
-                    "independence_group": "BITGET",
-                    "missing": false,
-                    "observed_at": "2026-10-02T19:21:49.043000+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-02T19:21:49.129355+00:00",
-                    "source_registry_id": "51",
-                    "unit": "bps",
-                    "value": -2.5783861972294986
-                  },
-                  {
-                    "feature": "orderbook_depth_usd_1pct",
-                    "independence_group": "BITGET",
-                    "missing": false,
-                    "observed_at": "2026-10-02T19:21:47.200000+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-02T19:21:47.276210+00:00",
-                    "source_registry_id": "51",
-                    "unit": "USD",
-                    "value": 4250934.809398919
-                  },
-                  {
-                    "feature": "signed_trades_cvd",
-                    "independence_group": "BITGET",
-                    "missing": false,
-                    "observed_at": "2026-10-02T19:21:45.615000+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-02T19:21:47.303913+00:00",
-                    "source_registry_id": "51",
-                    "unit": "USD",
-                    "value": 32531.98477183001
-                  },
-                  {
-                    "feature": "crypto_market_breadth",
-                    "independence_group": "COINPAPRIKA",
-                    "missing": false,
-                    "observed_at": "2026-10-02T19:21:14+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-02T19:21:48.934116+00:00",
-                    "source_registry_id": "72",
-                    "unit": "advancers_to_decliners",
-                    "value": 0.4591009579955785
-                  },
-                  {
-                    "feature": "btc_dominance",
-                    "independence_group": "COINPAPRIKA",
-                    "missing": false,
-                    "observed_at": "2026-10-02T19:19:25+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-02T19:21:49.073071+00:00",
-                    "source_registry_id": "72",
-                    "unit": "%",
-                    "value": 56.45
-                  },
-                  {
-                    "feature": "total_market_cap_usd",
-                    "independence_group": "COINPAPRIKA",
-                    "missing": false,
-                    "observed_at": "2026-10-02T19:19:25+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-02T19:21:49.073071+00:00",
-                    "source_registry_id": "72",
-                    "unit": "USD",
-                    "value": 2989239290713.0
-                  },
-                  {
-                    "feature": "social_mentions",
-                    "independence_group": "MASTODON",
-                    "missing": false,
-                    "observed_at": "2026-10-02T19:21:48.388568+00:00",
-                    "released_at": "2026-10-02T18:57:06+00:00",
-                    "retrieved_at": "2026-10-02T19:21:48.388568+00:00",
-                    "source_registry_id": "53",
-                    "unit": "count",
-                    "value": 40.0
-                  },
-                  {
-                    "feature": "social_unique_authors",
-                    "independence_group": "MASTODON",
-                    "missing": false,
-                    "observed_at": "2026-10-02T19:21:48.388568+00:00",
-                    "released_at": "2026-10-02T18:57:06+00:00",
-                    "retrieved_at": "2026-10-02T19:21:48.388568+00:00",
-                    "source_registry_id": "53",
-                    "unit": "count",
-                    "value": 9.0
-                  },
-                  {
-                    "feature": "news_volume",
-                    "independence_group": "CRYPTOSLATE",
-                    "missing": false,
-                    "observed_at": "2026-10-02T19:21:50.173168+00:00",
-                    "released_at": "2026-10-02T17:50:25+00:00",
-                    "retrieved_at": "2026-10-02T19:21:50.173168+00:00",
-                    "source_registry_id": "1063542434",
-                    "unit": "count",
-                    "value": 10.0
-                  },
-                  {
-                    "feature": "fud_stress",
-                    "independence_group": "FUDINDEX",
-                    "missing": false,
-                    "observed_at": "2026-10-02T00:00:00+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-02T19:21:48.065100+00:00",
-                    "source_registry_id": "10",
-                    "unit": "index",
-                    "value": 4.0
-                  },
-                  {
-                    "feature": "xrp_etp_flow_usd",
-                    "independence_group": "XRP_INSIGHTS",
-                    "missing": false,
-                    "observed_at": "2026-10-02T00:00:00+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-02T19:21:48.260306+00:00",
-                    "source_registry_id": "6",
-                    "unit": "USD",
-                    "value": 85230000.0
-                  },
-                  {
-                    "feature": "xrp_etp_aum_usd",
-                    "independence_group": "XRP_INSIGHTS",
-                    "missing": false,
-                    "observed_at": "2026-10-02T00:00:00+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-02T19:21:48.260306+00:00",
-                    "source_registry_id": "6",
-                    "unit": "USD",
-                    "value": 1774960000.0
-                  }
-                ],
-                "issued_at": "2026-10-02T19:22:27.528224+00:00",
-                "outcome_timestamp": "2026-10-03T19:22:27.528224+00:00",
-                "predicted_direction": "DOWN",
-                "prediction_sha256": "e53d0c24785c57c588b5534f5174f463c9cdfd16a33d44789d5911f201d63b93"
-              },
-              {
-                "actual_direction": "UP",
-                "actual_return_pct": 1.217251,
-                "feature_associations": [
-                  {
-                    "feature": "xrp_usd_price",
-                    "independence_group": "OKX",
-                    "missing": false,
-                    "observed_at": "2026-10-03T09:24:34.656000+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T09:24:34.728559+00:00",
-                    "source_registry_id": "13",
-                    "unit": "USD",
-                    "value": 1.48285
-                  },
-                  {
-                    "feature": "open_interest",
-                    "independence_group": "BITGET",
-                    "missing": false,
-                    "observed_at": "2026-10-03T09:24:36.887000+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T09:24:36.958537+00:00",
-                    "source_registry_id": "51",
-                    "unit": "XRP",
-                    "value": 170187612.0
-                  },
-                  {
-                    "feature": "funding_rate",
-                    "independence_group": "BITGET",
-                    "missing": false,
-                    "observed_at": "2026-10-03T09:24:36.887000+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T09:24:36.958537+00:00",
-                    "source_registry_id": "51",
-                    "unit": "rate",
-                    "value": 0.0001
-                  },
-                  {
-                    "feature": "fear_greed",
-                    "independence_group": "ALTERNATIVE_ME",
-                    "missing": false,
-                    "observed_at": "2026-10-03T00:00:00+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T09:24:34.541776+00:00",
-                    "source_registry_id": "58",
-                    "unit": "index",
-                    "value": 67.0
-                  },
-                  {
-                    "feature": "basis_bps",
-                    "independence_group": "BITGET",
-                    "missing": false,
-                    "observed_at": "2026-10-03T09:24:36.887000+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T09:24:36.958537+00:00",
-                    "source_registry_id": "51",
-                    "unit": "bps",
-                    "value": -4.205476951592013
-                  },
-                  {
-                    "feature": "orderbook_depth_usd_1pct",
-                    "independence_group": "OKX",
-                    "missing": false,
-                    "observed_at": "2026-10-03T09:24:34.656000+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T09:24:34.728559+00:00",
-                    "source_registry_id": "13",
-                    "unit": "USD",
-                    "value": 2435869.7797041014
-                  },
-                  {
-                    "feature": "signed_trades_cvd",
-                    "independence_group": "BITGET",
-                    "missing": false,
-                    "observed_at": "2026-10-03T09:24:29.740000+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T09:24:34.699764+00:00",
-                    "source_registry_id": "51",
-                    "unit": "USD",
-                    "value": -61674.35860691998
-                  },
-                  {
-                    "feature": "crypto_market_breadth",
-                    "independence_group": "COINLORE",
-                    "missing": false,
-                    "observed_at": "2026-10-03T09:22:01+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T09:24:34.600150+00:00",
-                    "source_registry_id": "62",
-                    "unit": "advancers_to_decliners",
-                    "value": 0.2692307692307692
-                  },
-                  {
-                    "feature": "btc_dominance",
-                    "independence_group": "COINPAPRIKA",
-                    "missing": false,
-                    "observed_at": "2026-10-03T09:22:26+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T09:24:36.888295+00:00",
-                    "source_registry_id": "72",
-                    "unit": "%",
-                    "value": 56.43
-                  },
-                  {
-                    "feature": "total_market_cap_usd",
-                    "independence_group": "COINPAPRIKA",
-                    "missing": false,
-                    "observed_at": "2026-10-03T09:22:26+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T09:24:36.888295+00:00",
-                    "source_registry_id": "72",
-                    "unit": "USD",
-                    "value": 3012916418072.0
-                  },
-                  {
-                    "feature": "social_mentions",
-                    "independence_group": "MASTODON",
-                    "missing": false,
-                    "observed_at": "2026-10-03T09:24:35.642725+00:00",
-                    "released_at": "2026-10-03T09:12:07+00:00",
-                    "retrieved_at": "2026-10-03T09:24:35.642725+00:00",
-                    "source_registry_id": "53",
-                    "unit": "count",
-                    "value": 40.0
-                  },
-                  {
-                    "feature": "social_unique_authors",
-                    "independence_group": "MASTODON",
-                    "missing": false,
-                    "observed_at": "2026-10-03T09:24:35.642725+00:00",
-                    "released_at": "2026-10-03T09:12:07+00:00",
-                    "retrieved_at": "2026-10-03T09:24:35.642725+00:00",
-                    "source_registry_id": "53",
-                    "unit": "count",
-                    "value": 9.0
-                  },
-                  {
-                    "feature": "news_volume",
-                    "independence_group": "CRYPTOSLATE",
-                    "missing": false,
-                    "observed_at": "2026-10-03T09:24:38.289876+00:00",
-                    "released_at": "2026-10-02T17:50:25+00:00",
-                    "retrieved_at": "2026-10-03T09:24:38.289876+00:00",
-                    "source_registry_id": "1063542434",
-                    "unit": "count",
-                    "value": 10.0
-                  },
-                  {
-                    "feature": "fud_stress",
-                    "independence_group": "FUDINDEX",
-                    "missing": false,
-                    "observed_at": "2026-10-03T00:00:00+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T09:24:35.741509+00:00",
-                    "source_registry_id": "10",
-                    "unit": "index",
-                    "value": 4.0
-                  },
-                  {
-                    "feature": "xrp_etp_flow_usd",
-                    "independence_group": "XRP_INSIGHTS",
-                    "missing": false,
-                    "observed_at": "2026-10-03T00:00:00+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T09:24:36.397900+00:00",
-                    "source_registry_id": "6",
-                    "unit": "USD",
-                    "value": 96940000.0
-                  },
-                  {
-                    "feature": "xrp_etp_aum_usd",
-                    "independence_group": "XRP_INSIGHTS",
-                    "missing": false,
-                    "observed_at": "2026-10-03T00:00:00+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T09:24:36.397900+00:00",
-                    "source_registry_id": "6",
-                    "unit": "USD",
-                    "value": 1758910000.0
-                  }
-                ],
-                "issued_at": "2026-10-03T09:25:17.535028+00:00",
-                "outcome_timestamp": "2026-10-04T09:25:17.535028+00:00",
-                "predicted_direction": "DOWN",
-                "prediction_sha256": "a6575d55023171b9f928e11be2b849ef515bb6e8456ba0c1a0bfd519594bfb6e"
-              },
-              {
-                "actual_direction": "UP",
-                "actual_return_pct": 1.161199,
-                "feature_associations": [
-                  {
-                    "feature": "xrp_usd_price",
-                    "independence_group": "OKX",
-                    "missing": false,
-                    "observed_at": "2026-10-03T10:21:11.754000+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T10:21:11.870899+00:00",
-                    "source_registry_id": "13",
-                    "unit": "USD",
-                    "value": 1.4829500000000002
-                  },
-                  {
-                    "feature": "open_interest",
-                    "independence_group": "BITGET",
-                    "missing": false,
-                    "observed_at": "2026-10-03T10:21:13.144000+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T10:21:13.377492+00:00",
-                    "source_registry_id": "51",
-                    "unit": "XRP",
-                    "value": 170985492.0
-                  },
-                  {
-                    "feature": "funding_rate",
-                    "independence_group": "BITGET",
-                    "missing": false,
-                    "observed_at": "2026-10-03T10:21:13.144000+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T10:21:13.377492+00:00",
-                    "source_registry_id": "51",
-                    "unit": "rate",
-                    "value": 0.0001
-                  },
-                  {
-                    "feature": "fear_greed",
-                    "independence_group": "ALTERNATIVE_ME",
-                    "missing": false,
-                    "observed_at": "2026-10-03T00:00:00+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T10:21:11.619651+00:00",
-                    "source_registry_id": "58",
-                    "unit": "index",
-                    "value": 67.0
-                  },
-                  {
-                    "feature": "basis_bps",
-                    "independence_group": "BITGET",
-                    "missing": false,
-                    "observed_at": "2026-10-03T10:21:13.144000+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T10:21:13.377492+00:00",
-                    "source_registry_id": "51",
-                    "unit": "bps",
-                    "value": -3.788536354284444
-                  },
-                  {
-                    "feature": "orderbook_depth_usd_1pct",
-                    "independence_group": "OKX",
-                    "missing": false,
-                    "observed_at": "2026-10-03T10:21:11.754000+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T10:21:11.870899+00:00",
-                    "source_registry_id": "13",
-                    "unit": "USD",
-                    "value": 2145777.9182980857
-                  },
-                  {
-                    "feature": "signed_trades_cvd",
-                    "independence_group": "KRAKEN",
-                    "missing": false,
-                    "observed_at": "2026-10-03T10:21:07.835019+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T10:21:11.695781+00:00",
-                    "source_registry_id": "14",
-                    "unit": "USD",
-                    "value": 0.0
-                  },
-                  {
-                    "feature": "crypto_market_breadth",
-                    "independence_group": "COINLORE",
-                    "missing": false,
-                    "observed_at": "2026-10-03T10:18:02+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T10:21:11.657185+00:00",
-                    "source_registry_id": "62",
-                    "unit": "advancers_to_decliners",
-                    "value": 0.3561643835616438
-                  },
-                  {
-                    "feature": "btc_dominance",
-                    "independence_group": "COINPAPRIKA",
-                    "missing": false,
-                    "observed_at": "2026-10-03T10:17:24+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T10:21:12.730489+00:00",
-                    "source_registry_id": "72",
-                    "unit": "%",
-                    "value": 56.4
-                  },
-                  {
-                    "feature": "total_market_cap_usd",
-                    "independence_group": "COINPAPRIKA",
-                    "missing": false,
-                    "observed_at": "2026-10-03T10:17:24+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T10:21:12.730489+00:00",
-                    "source_registry_id": "72",
-                    "unit": "USD",
-                    "value": 3013232511180.0
-                  },
-                  {
-                    "feature": "social_mentions",
-                    "independence_group": "MASTODON",
-                    "missing": false,
-                    "observed_at": "2026-10-03T10:21:12.213850+00:00",
-                    "released_at": "2026-10-03T09:54:46.319000+00:00",
-                    "retrieved_at": "2026-10-03T10:21:12.213850+00:00",
-                    "source_registry_id": "53",
-                    "unit": "count",
-                    "value": 40.0
-                  },
-                  {
-                    "feature": "social_unique_authors",
-                    "independence_group": "MASTODON",
-                    "missing": false,
-                    "observed_at": "2026-10-03T10:21:12.213850+00:00",
-                    "released_at": "2026-10-03T09:54:46.319000+00:00",
-                    "retrieved_at": "2026-10-03T10:21:12.213850+00:00",
-                    "source_registry_id": "53",
-                    "unit": "count",
-                    "value": 9.0
-                  },
-                  {
-                    "feature": "news_volume",
-                    "independence_group": "CRYPTOSLATE",
-                    "missing": false,
-                    "observed_at": "2026-10-03T10:21:14.494300+00:00",
-                    "released_at": "2026-10-02T17:50:25+00:00",
-                    "retrieved_at": "2026-10-03T10:21:14.494300+00:00",
-                    "source_registry_id": "1063542434",
-                    "unit": "count",
-                    "value": 10.0
-                  },
-                  {
-                    "feature": "fud_stress",
-                    "independence_group": "FUDINDEX",
-                    "missing": false,
-                    "observed_at": "2026-10-03T00:00:00+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T10:21:12.125901+00:00",
-                    "source_registry_id": "10",
-                    "unit": "index",
-                    "value": 4.0
-                  },
-                  {
-                    "feature": "xrp_etp_flow_usd",
-                    "independence_group": "XRP_INSIGHTS",
-                    "missing": false,
-                    "observed_at": "2026-10-03T00:00:00+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T10:21:12.572372+00:00",
-                    "source_registry_id": "6",
-                    "unit": "USD",
-                    "value": 96940000.0
-                  },
-                  {
-                    "feature": "xrp_etp_aum_usd",
-                    "independence_group": "XRP_INSIGHTS",
-                    "missing": false,
-                    "observed_at": "2026-10-03T00:00:00+00:00",
-                    "released_at": null,
-                    "retrieved_at": "2026-10-03T10:21:12.572372+00:00",
-                    "source_registry_id": "6",
-                    "unit": "USD",
-                    "value": 1758910000.0
-                  }
-                ],
-                "issued_at": "2026-10-03T10:21:39.090629+00:00",
-                "outcome_timestamp": "2026-10-04T10:21:39.090629+00:00",
-                "predicted_direction": "DOWN",
-                "prediction_sha256": "99ec230a1efef576af2202d05d652dfc0084d1eca50d0af0acb073d23326b3f2"
-              }
-            ],
+            "largest_misses": [],
             "non_overlapping_calls": {
-              "accuracy_pct": 0.0,
+              "accuracy_pct": 100.0,
               "benchmarks": {
                 "always_down_accuracy_pct": 0.0,
-                "always_neutral_accuracy_pct": 100.0,
-                "always_up_accuracy_pct": 0.0
+                "always_neutral_accuracy_pct": 0.0,
+                "always_up_accuracy_pct": 100.0
               },
               "confusion_matrix": {
                 "DOWN": {
                   "DOWN": 0,
-                  "NEUTRAL": 1,
+                  "NEUTRAL": 0,
                   "UP": 0
                 },
                 "NEUTRAL": {
@@ -4765,44 +4206,44 @@
                 "UP": {
                   "DOWN": 0,
                   "NEUTRAL": 0,
-                  "UP": 0
+                  "UP": 1
                 }
               },
-              "correct_count": 0,
-              "incorrect_count": 1,
+              "correct_count": 1,
+              "incorrect_count": 0,
               "scored_count": 1
             },
             "nonoverlap_rule": "Sorted by issue time; include a call only when it starts at/after the prior included call's horizon endpoint.",
             "rolling_calls": {
-              "accuracy_pct": 0.0,
+              "accuracy_pct": 100.0,
               "benchmarks": {
                 "always_down_accuracy_pct": 0.0,
-                "always_neutral_accuracy_pct": 18.75,
-                "always_up_accuracy_pct": 81.25
+                "always_neutral_accuracy_pct": 0.0,
+                "always_up_accuracy_pct": 100.0
               },
               "confusion_matrix": {
                 "DOWN": {
                   "DOWN": 0,
-                  "NEUTRAL": 3,
-                  "UP": 11
+                  "NEUTRAL": 0,
+                  "UP": 0
                 },
                 "NEUTRAL": {
                   "DOWN": 0,
                   "NEUTRAL": 0,
-                  "UP": 2
+                  "UP": 0
                 },
                 "UP": {
                   "DOWN": 0,
                   "NEUTRAL": 0,
-                  "UP": 0
+                  "UP": 1
                 }
               },
-              "correct_count": 0,
-              "incorrect_count": 16,
-              "scored_count": 16
+              "correct_count": 1,
+              "incorrect_count": 0,
+              "scored_count": 1
             },
-            "window_end": "2026-10-04T17:36:07.548847+00:00",
-            "window_start": "2026-10-03T17:36:07.548847+00:00"
+            "window_end": "2026-10-05T17:22:48.373465+00:00",
+            "window_start": "2026-10-04T17:22:48.373465+00:00"
           },
           "336": {
             "candidate": {
@@ -4876,8 +4317,8 @@
               "incorrect_count": 0,
               "scored_count": 0
             },
-            "window_end": "2026-10-04T17:36:07.548847+00:00",
-            "window_start": "2026-10-03T17:36:07.548847+00:00"
+            "window_end": "2026-10-05T17:22:48.373465+00:00",
+            "window_start": "2026-10-04T17:22:48.373465+00:00"
           },
           "720": {
             "candidate": {
@@ -4951,12 +4392,12 @@
               "incorrect_count": 0,
               "scored_count": 0
             },
-            "window_end": "2026-10-04T17:36:07.548847+00:00",
-            "window_start": "2026-10-03T17:36:07.548847+00:00"
+            "window_end": "2026-10-05T17:22:48.373465+00:00",
+            "window_start": "2026-10-04T17:22:48.373465+00:00"
           }
         },
-        "window_end": "2026-10-04T17:36:07.548847+00:00",
-        "window_start": "2026-10-03T17:36:07.548847+00:00"
+        "window_end": "2026-10-05T17:22:48.373465+00:00",
+        "window_start": "2026-10-04T17:22:48.373465+00:00"
       },
       "weekly": {
         "horizons": {
@@ -5032,8 +4473,8 @@
               "incorrect_count": 0,
               "scored_count": 0
             },
-            "window_end": "2026-10-04T17:36:07.548847+00:00",
-            "window_start": "2026-09-27T17:36:07.548847+00:00"
+            "window_end": "2026-10-05T17:22:48.373465+00:00",
+            "window_start": "2026-09-28T17:22:48.373465+00:00"
           },
           "24": {
             "candidate": {
@@ -5043,7 +4484,7 @@
                 "WITHHELD_INSUFFICIENT_EMBARGOED_TRAINING",
                 "UNCALIBRATED_RESEARCH_ONLY; NO_AUTOMATIC_PROMOTION"
               ],
-              "observations": 56,
+              "observations": 68,
               "promotion_eligible": false,
               "test_n": null,
               "train_n": null
@@ -5639,11 +5080,11 @@
             },
             "nonoverlap_rule": "Sorted by issue time; include a call only when it starts at/after the prior included call's horizon endpoint.",
             "rolling_calls": {
-              "accuracy_pct": 6.0606,
+              "accuracy_pct": 7.0,
               "benchmarks": {
-                "always_down_accuracy_pct": 42.4242,
-                "always_neutral_accuracy_pct": 20.202,
-                "always_up_accuracy_pct": 37.3737
+                "always_down_accuracy_pct": 42.0,
+                "always_neutral_accuracy_pct": 20.0,
+                "always_up_accuracy_pct": 38.0
               },
               "confusion_matrix": {
                 "DOWN": {
@@ -5659,15 +5100,15 @@
                 "UP": {
                   "DOWN": 32,
                   "NEUTRAL": 0,
-                  "UP": 1
+                  "UP": 2
                 }
               },
-              "correct_count": 6,
+              "correct_count": 7,
               "incorrect_count": 93,
-              "scored_count": 99
+              "scored_count": 100
             },
-            "window_end": "2026-10-04T17:36:07.548847+00:00",
-            "window_start": "2026-09-27T17:36:07.548847+00:00"
+            "window_end": "2026-10-05T17:22:48.373465+00:00",
+            "window_start": "2026-09-28T17:22:48.373465+00:00"
           },
           "336": {
             "candidate": {
@@ -5741,8 +5182,8 @@
               "incorrect_count": 0,
               "scored_count": 0
             },
-            "window_end": "2026-10-04T17:36:07.548847+00:00",
-            "window_start": "2026-09-27T17:36:07.548847+00:00"
+            "window_end": "2026-10-05T17:22:48.373465+00:00",
+            "window_start": "2026-09-28T17:22:48.373465+00:00"
           },
           "720": {
             "candidate": {
@@ -5816,18 +5257,18 @@
               "incorrect_count": 0,
               "scored_count": 0
             },
-            "window_end": "2026-10-04T17:36:07.548847+00:00",
-            "window_start": "2026-09-27T17:36:07.548847+00:00"
+            "window_end": "2026-10-05T17:22:48.373465+00:00",
+            "window_start": "2026-09-28T17:22:48.373465+00:00"
           }
         },
-        "window_end": "2026-10-04T17:36:07.548847+00:00",
-        "window_start": "2026-09-27T17:36:07.548847+00:00"
+        "window_end": "2026-10-05T17:22:48.373465+00:00",
+        "window_start": "2026-09-28T17:22:48.373465+00:00"
       }
     },
     "promotion_policy": "NO_AUTOMATIC_PROMOTION",
     "publication_status": "RESEARCH_ONLY",
-    "research_run_id": 230,
-    "review_sha256": "2af35d21d24197e76d392aca57bb3b6841c254162e898e93a1308153903e58bc",
+    "research_run_id": 252,
+    "review_sha256": "694a58ca9dff00fa71385ba3759e4f6258457d9650825891489c88ac6983cc60",
     "schema_version": "xrp_model_review_v1"
   },
   "post_outcome_reviews": [
@@ -6209,7 +5650,7 @@
       "validation_state": "AWAITING_MATURITY"
     },
     "24": {
-      "candidate_observations": 56,
+      "candidate_observations": 68,
       "candidate_status": "WITHHELD_INSUFFICIENT_EMBARGOED_TRAINING",
       "directional_lean": "UP",
       "frozen_predictions": 100,
@@ -6219,7 +5660,7 @@
       "neutral_deadband": 0.05,
       "note": "Direction-only prospective research baseline; no probability, target, range or trade recommendation.",
       "publication_state": "EXPERIMENTAL_UNCALIBRATED",
-      "scored_outcomes": 99,
+      "scored_outcomes": 100,
       "signal_score": 0.103282,
       "validation_state": "PROSPECTIVE_TRACK_RECORD_BUILDING"
     },
@@ -6266,8 +5707,8 @@
       "wrong_count": 0
     },
     "24": {
-      "correct_count": 6,
-      "direction_accuracy_pct": 6.0606,
+      "correct_count": 7,
+      "direction_accuracy_pct": 7.0,
       "horizon_hours": 24,
       "label": "24h",
       "largest_directional_misses": [
@@ -6309,18 +5750,6 @@
         }
       ],
       "recent_outcomes": [
-        {
-          "actual_direction": "DOWN",
-          "actual_return_pct": -1.241837,
-          "correct": true,
-          "cumulative_accuracy_pct": 7.5,
-          "end_price": 1.48952,
-          "issued_at": "2026-10-02T15:25:47.680496+00:00",
-          "outcome_timestamp": "2026-10-03T15:25:47.680496+00:00",
-          "predicted_direction": "DOWN",
-          "signal_score": -0.063172,
-          "start_price": 1.5082499999999999
-        },
         {
           "actual_direction": "DOWN",
           "actual_return_pct": -1.163061,
@@ -6548,9 +5977,21 @@
           "predicted_direction": "NEUTRAL",
           "signal_score": 0.024349,
           "start_price": 1.48935
+        },
+        {
+          "actual_direction": "UP",
+          "actual_return_pct": 0.569839,
+          "correct": true,
+          "cumulative_accuracy_pct": 7.0,
+          "end_price": 1.50015,
+          "issued_at": "2026-10-03T18:19:05.301884+00:00",
+          "outcome_timestamp": "2026-10-04T18:19:05.301884+00:00",
+          "predicted_direction": "UP",
+          "signal_score": 0.103282,
+          "start_price": 1.49165
         }
       ],
-      "scored_count": 99,
+      "scored_count": 100,
       "wrong_count": 93
     },
     "336": {
@@ -6574,70 +6015,70 @@
       "wrong_count": 0
     }
   },
-  "price": 1.50055,
+  "price": 1.4944499999999998,
   "price_alert_ux": {
-    "current_price": 1.50055,
+    "current_price": 1.49445,
     "fixed_levels": [
       {
-        "distance_pct": -33.3578,
-        "distance_usd": -0.50055,
+        "distance_pct": -33.0858,
+        "distance_usd": -0.49445,
         "label": "$1.00",
         "price": 1.0,
         "relation": "BELOW"
       },
       {
-        "distance_pct": -26.6935,
-        "distance_usd": -0.40055,
+        "distance_pct": -26.3943,
+        "distance_usd": -0.39445,
         "label": "$1.10",
         "price": 1.1,
         "relation": "BELOW"
       },
       {
-        "distance_pct": -20.0293,
-        "distance_usd": -0.30055,
+        "distance_pct": -19.7029,
+        "distance_usd": -0.29445,
         "label": "$1.20",
         "price": 1.2,
         "relation": "BELOW"
       },
       {
-        "distance_pct": -0.0367,
-        "distance_usd": -0.00055,
+        "distance_pct": 0.3714,
+        "distance_usd": 0.00555,
         "label": "$1.50",
         "price": 1.5,
-        "relation": "BELOW"
+        "relation": "ABOVE"
       },
       {
-        "distance_pct": 33.2845,
-        "distance_usd": 0.49945,
+        "distance_pct": 33.8285,
+        "distance_usd": 0.50555,
         "label": "$2.00",
         "price": 2.0,
         "relation": "ABOVE"
       },
       {
-        "distance_pct": 66.6056,
-        "distance_usd": 0.99945,
+        "distance_pct": 67.2856,
+        "distance_usd": 1.00555,
         "label": "$2.50",
         "price": 2.5,
         "relation": "ABOVE"
       },
       {
-        "distance_pct": 99.9267,
-        "distance_usd": 1.49945,
+        "distance_pct": 100.7427,
+        "distance_usd": 1.50555,
         "label": "$3.00",
         "price": 3.0,
         "relation": "ABOVE"
       },
       {
-        "distance_pct": 166.5689,
-        "distance_usd": 2.49945,
+        "distance_pct": 167.657,
+        "distance_usd": 2.50555,
         "label": "$4.00",
         "price": 4.0,
         "relation": "ABOVE"
       }
     ],
     "fixed_zone": {
-      "distance_to_zone_pct": -13.3651,
-      "distance_to_zone_usd": -0.20055,
+      "distance_to_zone_pct": -13.0115,
+      "distance_to_zone_usd": -0.19445,
       "label": "$1.28\u2013$1.30 watch area",
       "lower": 1.28,
       "position": "ABOVE",
@@ -6647,16 +6088,16 @@
     "rolling_windows": [
       {
         "high": {
-          "distance_pct": 0.2299,
-          "distance_usd": 0.00345,
-          "price": 1.504,
+          "distance_pct": 2.0253,
+          "distance_usd": 0.0302675,
+          "price": 1.5247175,
           "relation": "ABOVE"
         },
         "label": "24h observed range",
         "low": {
-          "distance_pct": -0.963,
-          "distance_usd": -0.01445,
-          "price": 1.4861,
+          "distance_pct": -0.184,
+          "distance_usd": -0.00275,
+          "price": 1.4917,
           "relation": "BELOW"
         },
         "observations": 25,
@@ -6666,15 +6107,15 @@
       },
       {
         "high": {
-          "distance_pct": 3.2538,
-          "distance_usd": 0.048825,
+          "distance_pct": 3.6753,
+          "distance_usd": 0.054925,
           "price": 1.549375,
           "relation": "ABOVE"
         },
         "label": "7d observed range",
         "low": {
-          "distance_pct": -2.3958,
-          "distance_usd": -0.03595,
+          "distance_pct": -1.9974,
+          "distance_usd": -0.02985,
           "price": 1.4646,
           "relation": "BELOW"
         },
@@ -6686,16 +6127,16 @@
     ],
     "schema_version": "xrp_dashboard_price_alert_ux_v1"
   },
-  "price_observed_hour": "2026-10-04T17:00:00+00:00",
+  "price_observed_hour": "2026-10-05T17:00:00+00:00",
   "publication": "RESEARCH ONLY \u00b7 UNCALIBRATED",
   "publication_metadata": {
     "calibration_status": "UNCALIBRATED",
-    "run_id": 230,
+    "run_id": 252,
     "source": "frozen_research_capture",
     "status": "RESEARCH_ONLY"
   },
-  "research_run_id": 230,
+  "research_run_id": 252,
   "schema": "xrp-research-dashboard-v1",
-  "snapshot_sha256": "b928936e7fb8f8e5542a75f658588f7fd717e8f1da10161de4f731550d93f6be",
+  "snapshot_sha256": "ae9f851ef6e45ac921a54ed97d4fd4e7dae954320536b36fa3555682c85d9b43",
   "status": "QUALIFIED_WITH_COVERAGE_WARNING"
 }
